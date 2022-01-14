@@ -2,7 +2,7 @@
 
 *En los campos de la electricidad y la electrónica, se presentan tanto cantidades muy pequeñas como muy grandes. Por ejemplo, es común tener valores de corriente eléctrica de sólo unas cuantas milésimas o incluso de unos cuantos millonésimos de ampere, o tener valores de resistencia hasta de varios miles o millones de ohms.*
 
-La notación científica proporciona un método conveniente para representar números grandes y pequeños y realizar cálculos que implican tales números. En notación científica, una cantidad se expresa como el producto de un número situado entre $1$ y $10$ y una potencia de diez. Por ejemplo, la cantidad $150,000$ se expresa en notación científica como $1.5 x 10^5$, y la cantidad 0.00022 como $2.2 x 10^{-4}$.
+La notación científica proporciona un método conveniente para representar números grandes y pequeños y realizar cálculos que implican tales números. En notación científica, una cantidad se expresa como el producto de un número situado entre $1$ y $10$ y una potencia de diez. Por ejemplo, la cantidad $150,000$ se expresa en notación científica como $1.5 \times 10^5$, y la cantidad 0.00022 como $2.2 \times 10^{-4}$.
 
 ## Ejemplos
 
@@ -10,18 +10,18 @@ Desde el punto de vista eléctrico y electrónico siempre se trata de aplicar un
 
 |Comun|Notacion|
 |--|--|
-|$1,200,000$|$1.2 x 10^6$|
-|$0.000033$|$33 x 10^{-6}$|
-|$0.010$|$10 x 10^3$|
-|$5,600$|$5.6 x 10^3$|
-|$1,000$|$1 x 10^3$|
+|$1,200,000$|$1.2 \times 10^6$|
+|$0.000033$|$33 \times 10^{-6}$|
+|$0.010$|$10 \times 10^3$|
+|$5,600$|$5.6 \times 10^3$|
+|$1,000$|$1 \times 10^3$|
 
 ## Ejercicios
 
 Aplicar la notación científica a cada una de las cifras.
 
 |Comun|Notacion|
-|-|-|
+|:-|-|
 |$1,000,000$||
 |$3,300$||
 |$4,700$||
@@ -36,11 +36,11 @@ Aplicar la notación científica a cada una de las cifras.
 Obtener la cifra de la notacion cientifica.
 
 |Notación|Común|
-|-|-|
-|$5x10^{3}$||
-|$0.5x10^{-3}$||
-|$0.5x10^{6}$||
-|$2.4x10^{9}$||
-|$7.4x10^{-6}$||
-|$5x10^{3}$||
-|$6.2x10^{-9}$||
+|:-|-|
+|$5 \times 10^{3}$||
+|$0.5 \times 10^{-3}$||
+|$0.5 \times 10^{6}$||
+|$2.4 \times 10^{9}$||
+|$7.4 \times 10^{-6}$||
+|$5 \times 10^{3}$||
+|$6.2 \times 10^{-9}$||
