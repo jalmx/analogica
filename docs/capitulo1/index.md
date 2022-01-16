@@ -36,6 +36,6 @@ La diferencia en la energía potencial por cargas es la diferencia de potencial 
 
 ## Resistencia
 
-> Es la oposición al paso de la corriente.
-
+!!! note 
+  Es la oposición al paso de la corriente.
 
