@@ -4,11 +4,11 @@
 
 Genera una diferencia de potencial en sus extremos para el funcionamiento de un circuito eléctrico. Ejemplos: Pila o Batería, un generador eléctrico. Sus terminales se definen como polo positivo y polo negativo.
 
-Símbolos:
+**Símbolos:**
 
 |Fuente de voltaje DC|Fuente de voltaje DC|Fuente de voltaje AC|
-|--|--|--|
-|||
+|:--:|:--:|:--:|
+|![Fuente de voltaje directo](./../img/voltaje_dc_simbolo.svg)|![simbolo de pila](../img/voltaje_dc_pila_simbolo.svg)|![simbolo de fuente AC](./../img/voltaje_ac_simbolo.svg) |
 
 ## Baterías en Serie y Paralelo
 
@@ -20,11 +20,18 @@ La conexión en serie la función que tienes es sumar los voltajes de cada una d
 
 Unas de los cuidados que debemos tener es que todas las baterías deben ser de las mismas características, tanto en voltaje como en corriente, dado que si hay descompensación, la batería se comienza a comportar como una carga y comienza a mermar a las demás y comienza a calentarse, pudiendo causar un accidente.
 
-> falta la imagen y el texto
+
 
 ### Baterías en Paralelo
 
 La conexión en paralelo tiene la misma función, incrementar la potencia, pero de una manera distinta, la forma en que funciona es sumar la corriente de las baterías y así obtener un corriente mucho mayor. De igual forma las baterías deben ser de las mismas características por el peligro que existe de una explosión o incendio.
+
+!!! danger
+    Esta configuracion tiene varios cuidados, se puede aplicar pero en lo general no se recomienda.
+
+
+![baterias en pararalelo](../img/bateria_paralelo.svg) {width="80%"}
+
 
 ## Ejercicios
 

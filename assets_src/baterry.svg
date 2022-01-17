@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="78.737373mm"
+   height="68.023476mm"
+   viewBox="0 0 78.737373 68.023476"
+   version="1.1"
+   id="svg2063"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="baterry.svg">
+  <defs
+     id="defs2057" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="54.503054"
+     inkscape:cy="85.685212"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-bbox="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata2060">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-31.549206,-58.912735)">
+    <g
+       id="g2688">
+      <path
+         id="rect2065"
+         style="fill:#f2f2f2;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+         d="m 32.049206,70.056189 v 6.098333 h 77.737374 v -6.098333 z m 6.322095,6.420797 V 120.04332 H 103.46449 V 76.476986 Z m -6.322095,43.860884 v 6.09834 h 77.737374 v -6.09834 z" />
+      <rect
+         style="fill:#f2f2f2;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect2641"
+         width="10.445895"
+         height="10.643456"
+         x="42.632549"
+         y="59.412735" />
+      <rect
+         style="fill:#f2f2f2;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect2643"
+         width="10.445895"
+         height="10.643456"
+         x="88.757347"
+         y="59.412735" />
+      <path
+         d="m 48.415196,78.548887 v 3.711347 h 3.711346 v 1.132725 h -3.711346 v 3.711345 h -1.1194 v -3.711345 h -3.711345 v -1.132725 h 3.711345 v -3.711347 z"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#800000;fill-opacity:1;stroke:none;stroke-width:0.341151"
+         id="path2658" />
+      <rect
+         style="fill:#0000ff;stroke:none;stroke-width:1.51969;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect2656"
+         width="8.5420885"
+         height="1.1327277"
+         x="89.709251"
+         y="82.260231" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="70.574249"
+       y="104.51035"
+       id="text2667"><tspan
+         sodipodi:role="line"
+         id="tspan2665"
+         x="70.574249"
+         y="104.51035"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583">12V</tspan><tspan
+         sodipodi:role="line"
+         x="70.574249"
+         y="117.73948"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         id="tspan2669">250A</tspan></text>
+  </g>
+</svg>

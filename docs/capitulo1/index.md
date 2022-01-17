@@ -39,3 +39,5 @@ La diferencia en la energía potencial por cargas es la diferencia de potencial 
 !!! note 
   Es la oposición al paso de la corriente.
 
+![resistencia](../img/resistencia.svg){width="80%"}
+<figcaption>Ejemplo de como estaria actuando la resistencia al limitar la cantidad de electrones que pasan por el conductor</figcaption>

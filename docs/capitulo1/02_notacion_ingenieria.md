@@ -1,6 +1,6 @@
 # Notación de ingeniería (múltiplos y submúltiplos) 
 
-La notación de ingeniería es similar a la notación científica. Sin embargo, en notación de ingeniería un número puede tener de uno a tres dígitos a la izquierda del punto decimal y el exponente de potencia de diez debe ser un múltiplo de tres. Por ejemplo, el número $33,000$ expresado. 
+La notación de ingeniería es similar a la notación científica. Sin embargo, en notación de ingeniería un número puede tener de uno a tres dígitos a la izquierda del punto decimal y el exponente de potencia de diez debe ser un múltiplo de tres. Por ejemplo, el número *$33,000$* expresado en notacion de ingenieria seria *$33K$*.
 
 |Factor|Nombre|Símbolo|
 |:--:|:--:|:--:|
