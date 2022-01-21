@@ -6,10 +6,11 @@ tags:
 
 # Ley de Ohm
 
-!!! info 
-    La ley de Ohm establece que la corriente es directamente proporcional al voltaje e inversamente proporcional a la resistencia.
+!!! info Ley de Ohm
+    Establece que la corriente es directamente proporcional al voltaje e inversamente proporcional a la resistencia.
 
-> imagen de Ley de Ohm
+![ley de ohm](../img/ohm_law.svg)
+<figcaption>El triangulo de la Ley de Ohm</figcaption>
 
 ## Ejemplos 
 
@@ -45,8 +46,6 @@ tags:
     Aplicando la ley de Ohm, despejamos la resistencia y obtenemos 
     
     $$R=\frac{V}{I}=\frac{12V}{3.08A}=3.90 \Omega$$
-
-
 
 ## Ejercicios:
 

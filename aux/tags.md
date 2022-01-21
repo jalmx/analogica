@@ -8,13 +8,13 @@ title: Tags
 
 ## <span class="tag">basico</span>
 
-  * [05_ley_de_oh](capitulo1/05_ley_de_ohm.md)
+  * [06_ley_de_oh](capitulo1/06_ley_de_ohm.md)
 
  
 
 
 ## <span class="tag">ley de ohm</span>
 
-  * [05_ley_de_oh](capitulo1/05_ley_de_ohm.md)
+  * [06_ley_de_oh](capitulo1/06_ley_de_ohm.md)
 
  

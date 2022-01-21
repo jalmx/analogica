@@ -15,7 +15,7 @@ Cuando se conectan los resistores y forman una hilera, en la cual existe solo un
 
 !!! example Ejemplo
     **1. Obtenner la resistencia total del siguiente circuito** <br>
-    **Diagrama** <br>
+    **Diagrama:** <br> 
     **Calculo:** <br>
 
 !!! example Ejemplo
