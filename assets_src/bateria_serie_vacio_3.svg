@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="156.61581mm"
+   height="46.066532mm"
+   viewBox="0 0 156.61581 46.066532"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="bateria_serie_vacio.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="191.07143"
+     inkscape:cy="93.214285"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-midpoints="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="744"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:snap-object-midpoints="true"
+     inkscape:pagecheckerboard="0"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-12.397249,-117.98569)">
+    <g
+       inkscape:label="Layer 1"
+       id="layer1-6"
+       transform="matrix(0.50055362,0,0,0.50055362,-3.3948199,100.51384)">
+      <g
+         id="g2688">
+        <path
+           id="rect2065"
+           style="fill:#f2f2f2;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+           d="m 32.049206,70.056189 v 6.098333 h 77.737374 v -6.098333 z m 6.322095,6.420797 V 120.04332 H 103.46449 V 76.476986 Z m -6.322095,43.860884 v 6.09834 h 77.737374 v -6.09834 z" />
+        <rect
+           style="fill:#f2f2f2;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect2641"
+           width="10.445895"
+           height="10.643456"
+           x="42.632549"
+           y="59.412735" />
+        <rect
+           style="fill:#f2f2f2;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect2643"
+           width="10.445895"
+           height="10.643456"
+           x="88.757347"
+           y="59.412735" />
+        <path
+           d="m 48.415196,78.548887 v 3.711347 h 3.711346 v 1.132725 h -3.711346 v 3.711345 h -1.1194 v -3.711345 h -3.711345 v -1.132725 h 3.711345 v -3.711347 z"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#800000;fill-opacity:1;stroke:none;stroke-width:0.341151"
+           id="path2658" />
+        <rect
+           style="fill:#0000ff;stroke:none;stroke-width:1.51969;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect2656"
+           width="8.5420885"
+           height="1.1327277"
+           x="89.709251"
+           y="82.260231" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="70.574249"
+         y="104.51035"
+         id="text2667"><tspan
+           sodipodi:role="line"
+           x="70.574249"
+           y="104.51035"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+           id="tspan2669">Bat 1</tspan></text>
+    </g>
+    <g
+       inkscape:label="Layer 1"
+       id="g875"
+       transform="matrix(0.50055362,0,0,0.50055362,86.564518,100.51384)">
+      <g
+         id="g867">
+        <path
+           id="path857"
+           style="fill:#f2f2f2;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+           d="m 32.049206,70.056189 v 6.098333 h 77.737374 v -6.098333 z m 6.322095,6.420797 V 120.04332 H 103.46449 V 76.476986 Z m -6.322095,43.860884 v 6.09834 h 77.737374 v -6.09834 z" />
+        <rect
+           style="fill:#f2f2f2;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect859"
+           width="10.445895"
+           height="10.643456"
+           x="42.632549"
+           y="59.412735" />
+        <rect
+           style="fill:#f2f2f2;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect861"
+           width="10.445895"
+           height="10.643456"
+           x="88.757347"
+           y="59.412735" />
+        <path
+           d="m 48.415196,78.548887 v 3.711347 h 3.711346 v 1.132725 h -3.711346 v 3.711345 h -1.1194 v -3.711345 h -3.711345 v -1.132725 h 3.711345 v -3.711347 z"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#800000;fill-opacity:1;stroke:none;stroke-width:0.341151"
+           id="path863" />
+        <rect
+           style="fill:#0000ff;stroke:none;stroke-width:1.51969;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect865"
+           width="8.5420885"
+           height="1.1327277"
+           x="89.709251"
+           y="82.260231" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="70.574249"
+         y="104.51035"
+         id="text873"><tspan
+           sodipodi:role="line"
+           x="70.574249"
+           y="104.51035"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+           id="tspan871">Bat 3</tspan></text>
+      <path
+         style="fill:none;stroke:#ff0000;stroke-width:1.12875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M -131.86418,59.412735 V 43.751429 h 268.52787"
+         id="path897" />
+      <path
+         style="fill:none;stroke:#0000ff;stroke-width:1.12875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 4.1204577,59.412735 V 50.615164"
+         id="path905" />
+      <path
+         style="fill:none;stroke:#0000ff;stroke-width:1.12875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M -85.73939,59.412735 V 50.615164"
+         id="path905-3" />
+      <circle
+         style="fill:#0000ff;stroke:none;stroke-width:1.12875;stroke-miterlimit:4;stroke-dasharray:none"
+         id="circle946"
+         cx="136.18758"
+         cy="50.615166"
+         r="1.9400618" />
+      <circle
+         style="fill:#ff0000;stroke:none;stroke-width:1.12875;stroke-miterlimit:4;stroke-dasharray:none"
+         id="circle948"
+         cx="136.6637"
+         cy="43.751431"
+         r="1.9400618" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:12.0376px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.300939"
+         x="153.03859"
+         y="43.839203"
+         id="text952"><tspan
+           sodipodi:role="line"
+           id="tspan950"
+           x="153.03859"
+           y="43.839203"
+           style="text-align:center;text-anchor:middle;stroke-width:0.300939">V<tspan
+   style="font-size:7.04775px"
+   id="tspan10475">T</tspan></tspan><tspan
+           sodipodi:role="line"
+           x="153.03859"
+           y="58.886204"
+           style="text-align:center;text-anchor:middle;stroke-width:0.300939"
+           id="tspan954">I<tspan
+   style="font-size:7.04775px"
+   id="tspan9351">T</tspan></tspan></text>
+      <path
+         style="fill:none;stroke:#0000ff;stroke-width:1.33164;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 93.973789,59.40615 V 50.60173 H 136.14158"
+         id="path31801" />
+      <path
+         style="fill:none;stroke:#ff0000;stroke-width:1.12875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M -42.00434,59.412735 V 50.615164"
+         id="path32083" />
+      <path
+         style="fill:#aa0000;stroke:#ff0000;stroke-width:1.12875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 47.855497,59.412735 V 50.615164"
+         id="path32085" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1.34556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -86.303765,50.615164 h 44.8638"
+         id="path32318" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1.34556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 3.556072,51.287944 h 44.8638"
+         id="path32457" />
+    </g>
+    <g
+       inkscape:label="Layer 1"
+       id="g895"
+       transform="matrix(0.50055362,0,0,0.50055362,41.584851,100.51384)">
+      <g
+         id="g887">
+        <path
+           id="path877"
+           style="fill:#f2f2f2;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+           d="m 32.049206,70.056189 v 6.098333 h 77.737374 v -6.098333 z m 6.322095,6.420797 V 120.04332 H 103.46449 V 76.476986 Z m -6.322095,43.860884 v 6.09834 h 77.737374 v -6.09834 z" />
+        <rect
+           style="fill:#f2f2f2;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect879"
+           width="10.445895"
+           height="10.643456"
+           x="42.632549"
+           y="59.412735" />
+        <rect
+           style="fill:#f2f2f2;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect881"
+           width="10.445895"
+           height="10.643456"
+           x="88.757347"
+           y="59.412735" />
+        <path
+           d="m 48.415196,78.548887 v 3.711347 h 3.711346 v 1.132725 h -3.711346 v 3.711345 h -1.1194 v -3.711345 h -3.711345 v -1.132725 h 3.711345 v -3.711347 z"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#800000;fill-opacity:1;stroke:none;stroke-width:0.341151"
+           id="path883" />
+        <rect
+           style="fill:#0000ff;stroke:none;stroke-width:1.51969;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect885"
+           width="8.5420885"
+           height="1.1327277"
+           x="89.709251"
+           y="82.260231" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="70.574249"
+         y="104.51035"
+         id="text893"><tspan
+           sodipodi:role="line"
+           x="70.574249"
+           y="104.51035"
+           style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+           id="tspan891">Bat 2</tspan></text>
+    </g>
+  </g>
+</svg>

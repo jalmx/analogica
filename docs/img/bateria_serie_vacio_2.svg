@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="99.946mm" height="45.987mm" version="1.1" viewBox="0 0 99.946 45.987" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-12.397 -118.07)">
+  <g transform="matrix(.50055 0 0 .50055 -3.3948 100.51)">
+   <g fill="#f2f2f2" stroke="#000">
+    <path d="m32.049 70.056v6.0983h77.737v-6.0983zm6.3221 6.4208v43.566h65.093v-43.566zm-6.3221 43.861v6.0983h77.737v-6.0983z"/>
+    <rect x="42.633" y="59.413" width="10.446" height="10.643"/>
+    <rect x="88.757" y="59.413" width="10.446" height="10.643"/>
+   </g>
+   <path d="m48.415 78.549v3.7113h3.7113v1.1327h-3.7113v3.7113h-1.1194v-3.7113h-3.7113v-1.1327h3.7113v-3.7113z" fill="#800000"/>
+   <rect x="89.709" y="82.26" width="8.5421" height="1.1327" fill="#00f"/>
+   <text x="70.574249" y="104.51035" fill="#000000" font-family="sans-serif" font-size="10.583px" stroke-width=".26458" style="line-height:1.25" xml:space="preserve"><tspan x="70.574249" y="104.51035" stroke-width=".26458" text-align="center" text-anchor="middle">Bat 1</tspan></text>
+  </g>
+  <g fill="none" stroke-width=".565">
+   <path d="m20.559 130.25v-7.8393h83.726" stroke="#f00"/>
+   <path d="m88.627 130.25v-4.4037" stroke="#00f"/>
+   <path d="m43.647 130.25v-4.4037" stroke="#00f"/>
+  </g>
+  <circle cx="104.27" cy="125.85" r=".9711" fill="#00f"/>
+  <circle cx="104.29" cy="122.13" r=".9711" fill="#f00"/>
+  <text x="109.19405" y="122.45771" fill="#000000" font-family="sans-serif" font-size="6.0255px" stroke-width=".15064" text-anchor="middle" style="line-height:1.25" xml:space="preserve"><tspan x="109.19405" y="122.45771" text-align="center">V<tspan font-size="3.5278px" stroke-width=".15064">T</tspan></tspan><tspan x="109.19405" y="129.98953" text-align="center">I<tspan font-size="3.5278px" stroke-width=".15064">T</tspan></tspan></text>
+  <path d="m65.539 130.25v-4.4037" fill="none" stroke="#f00" stroke-width=".565"/>
+  <path d="m43.365 125.85h22.457" fill="none" stroke="#000" stroke-width=".67352"/>
+  <g transform="matrix(.50055 0 0 .50055 41.585 100.51)">
+   <g fill="#f2f2f2" stroke="#000">
+    <path d="m32.049 70.056v6.0983h77.737v-6.0983zm6.3221 6.4208v43.566h65.093v-43.566zm-6.3221 43.861v6.0983h77.737v-6.0983z"/>
+    <rect x="42.633" y="59.413" width="10.446" height="10.643"/>
+    <rect x="88.757" y="59.413" width="10.446" height="10.643"/>
+   </g>
+   <path d="m48.415 78.549v3.7113h3.7113v1.1327h-3.7113v3.7113h-1.1194v-3.7113h-3.7113v-1.1327h3.7113v-3.7113z" fill="#800000"/>
+   <rect x="89.709" y="82.26" width="8.5421" height="1.1327" fill="#00f"/>
+   <text x="70.574249" y="104.51035" fill="#000000" font-family="sans-serif" font-size="10.583px" stroke-width=".26458" style="line-height:1.25" xml:space="preserve"><tspan x="70.574249" y="104.51035" stroke-width=".26458" text-align="center" text-anchor="middle">Bat 2</tspan></text>
+  </g>
+  <path d="m88.345 125.85h15.93" fill="#00f" stroke="#00f" stroke-width=".77188"/>
+ </g>
+</svg>

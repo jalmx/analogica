@@ -2,6 +2,10 @@
 
 La notación de ingeniería es similar a la notación científica. Sin embargo, en notación de ingeniería un número puede tener de uno a tres dígitos a la izquierda del punto decimal y el exponente de potencia de diez debe ser un múltiplo de tres. Por ejemplo, el número *$33,000$* expresado en notacion de ingenieria seria *$33K$*.
 
+
+![conversion](../img/conversion.svg){width="80%"}
+<figcaption>Ejemplo de conversion</figcaption>
+
 |Factor|Nombre|Símbolo|
 |:--:|:--:|:--:|
 |$10^{12}$|$Tera$|$T$|
@@ -28,15 +32,15 @@ La notación de ingeniería es similar a la notación científica. Sin embargo, 
 
 Aplicar los múltiplos y submúltiplos en las siguientes cifras
 
-|Cifra|Notación|
-|-|-|
-|$1,000,000$||
-|$3,300$||
-|$4,700$||
-|$0.001$||
-|$0.000022$||
-|$220,000$||
-|$0.005$||
-|$0.1$||
-|$2,200$||
-|$560,000$||
+|No|Cifra|Notación|
+|:-:|-|-|
+|1|$1,000,000$||
+|2|$3,300$||
+|3|$4,700$||
+|4|$0.001$||
+|5|$0.000022$||
+|6|$220,000$||
+|7|$0.005$||
+|8|$0.1$||
+|9|$2,200$||
+|10|$560,000$||

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="156.62mm" height="46.067mm" version="1.1" viewBox="0 0 156.62 46.067" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-12.397 -117.99)">
+  <g transform="matrix(.50055 0 0 .50055 -3.3948 100.51)">
+   <g fill="#f2f2f2" stroke="#000">
+    <path d="m32.049 70.056v6.0983h77.737v-6.0983zm6.3221 6.4208v43.566h65.093v-43.566zm-6.3221 43.861v6.0983h77.737v-6.0983z"/>
+    <rect x="42.633" y="59.413" width="10.446" height="10.643"/>
+    <rect x="88.757" y="59.413" width="10.446" height="10.643"/>
+   </g>
+   <path d="m48.415 78.549v3.7113h3.7113v1.1327h-3.7113v3.7113h-1.1194v-3.7113h-3.7113v-1.1327h3.7113v-3.7113z" fill="#800000"/>
+   <rect x="89.709" y="82.26" width="8.5421" height="1.1327" fill="#00f"/>
+   <text x="70.574249" y="104.51035" fill="#000000" font-family="sans-serif" font-size="10.583px" stroke-width=".26458" style="line-height:1.25" xml:space="preserve"><tspan x="70.574249" y="104.51035" stroke-width=".26458" text-align="center" text-anchor="middle">Bat 1</tspan></text>
+  </g>
+  <g transform="matrix(.50055 0 0 .50055 86.565 100.51)">
+   <g fill="#f2f2f2" stroke="#000">
+    <path d="m32.049 70.056v6.0983h77.737v-6.0983zm6.3221 6.4208v43.566h65.093v-43.566zm-6.3221 43.861v6.0983h77.737v-6.0983z"/>
+    <rect x="42.633" y="59.413" width="10.446" height="10.643"/>
+    <rect x="88.757" y="59.413" width="10.446" height="10.643"/>
+   </g>
+   <path d="m48.415 78.549v3.7113h3.7113v1.1327h-3.7113v3.7113h-1.1194v-3.7113h-3.7113v-1.1327h3.7113v-3.7113z" fill="#800000"/>
+   <rect x="89.709" y="82.26" width="8.5421" height="1.1327" fill="#00f"/>
+   <text x="70.574249" y="104.51035" fill="#000000" font-family="sans-serif" font-size="10.583px" stroke-width=".26458" style="line-height:1.25" xml:space="preserve"><tspan x="70.574249" y="104.51035" stroke-width=".26458" text-align="center" text-anchor="middle">Bat 3</tspan></text>
+   <g fill="none" stroke="#f00" stroke-width="1.1288">
+    <path d="m-131.86 59.413v-15.661h268.53"/>
+    <path d="m-42.004 59.413v-15.661"/>
+    <path d="m47.855 59.413v-15.661"/>
+   </g>
+   <g fill="none" stroke="#00f" stroke-width="1.1288">
+    <path d="m-85.739 59.413v-8.7976h221.93"/>
+    <path d="m4.1205 59.413v-8.7976"/>
+    <path d="m93.98 59.413v-8.7976"/>
+   </g>
+   <circle cx="-42.004" cy="43.751" r="1.9401" fill="#f00"/>
+   <circle cx="47.855" cy="43.751" r="1.9401" fill="#f00"/>
+   <g fill="#00f">
+    <circle cx="93.98" cy="50.615" r="1.9401"/>
+    <circle cx="4.1205" cy="50.615" r="1.9401"/>
+    <circle cx="136.19" cy="50.615" r="1.9401"/>
+   </g>
+   <circle cx="136.66" cy="43.751" r="1.9401" fill="#f00"/>
+   <text x="153.03859" y="43.839203" fill="#000000" font-family="sans-serif" font-size="12.038px" stroke-width=".30094" text-anchor="middle" style="line-height:1.25" xml:space="preserve"><tspan x="153.03859" y="43.839203" text-align="center">V<tspan font-size="7.0478px">T</tspan></tspan><tspan x="153.03859" y="58.886204" text-align="center">I<tspan font-size="7.0478px">T</tspan></tspan></text>
+  </g>
+  <g transform="matrix(.50055 0 0 .50055 41.585 100.51)">
+   <g fill="#f2f2f2" stroke="#000">
+    <path d="m32.049 70.056v6.0983h77.737v-6.0983zm6.3221 6.4208v43.566h65.093v-43.566zm-6.3221 43.861v6.0983h77.737v-6.0983z"/>
+    <rect x="42.633" y="59.413" width="10.446" height="10.643"/>
+    <rect x="88.757" y="59.413" width="10.446" height="10.643"/>
+   </g>
+   <path d="m48.415 78.549v3.7113h3.7113v1.1327h-3.7113v3.7113h-1.1194v-3.7113h-3.7113v-1.1327h3.7113v-3.7113z" fill="#800000"/>
+   <rect x="89.709" y="82.26" width="8.5421" height="1.1327" fill="#00f"/>
+   <text x="70.574249" y="104.51035" fill="#000000" font-family="sans-serif" font-size="10.583px" stroke-width=".26458" style="line-height:1.25" xml:space="preserve"><tspan x="70.574249" y="104.51035" stroke-width=".26458" text-align="center" text-anchor="middle">Bat 2</tspan></text>
+  </g>
+ </g>
+</svg>
