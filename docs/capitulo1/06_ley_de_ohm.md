@@ -12,6 +12,22 @@ tags:
 ![ley de ohm](../img/ohm_law.svg)
 <figcaption>El triangulo de la Ley de Ohm</figcaption>
 
+```markmap
+# Ley de Ohm
+
+## Resistencia
+
+- R = V / I
+
+## Corriente
+
+- I = V / R
+
+## Voltaje
+
+- V = (R)(I)
+```
+
 ## Ejemplos 
 
 !!! example Ejemplo
