@@ -19,3 +19,27 @@ Un circuito serie se base en lo previamente visto con relación a la conexión d
 
 > **Corriente:** La corriente es la misma en todas las cargas (resistencias).
 
+## Circuitos resistivos
+
+```markmap
+# Circuitos electricos resistivos
+
+- En cada circuito los valores resistivos, de voltaje y corriente tienen un comporatimiento distinto 
+
+## Circuito serie
+
+- **Voltaje**: Se destribuye en todas las cargas
+- **Corriente**: Es la misma en todas las cargas
+- **Resistencia**: Se suman
+    
+## Circuito paralelo
+    
+- **Voltaje**: Es el mismo en todas las cargas
+- **Corriente**: Se distribuye en todas las cargas
+- **Resistencia**: Se reduce de manera inversamente proporcional
+
+## Circuito mixto
+
+- Se aplica la regla en funcion de la conexión de las resistencias en ese momento
+
+```
