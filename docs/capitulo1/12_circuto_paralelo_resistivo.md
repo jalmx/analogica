@@ -1,0 +1,1 @@
+# Circuitos en Paralelo Resistivo

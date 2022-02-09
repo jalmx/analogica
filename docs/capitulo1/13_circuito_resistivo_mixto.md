@@ -1,1 +1,2 @@
-# Circutios mixtos 
+# Circuito mixtos Resistivo (Serie-Paralelo)
+

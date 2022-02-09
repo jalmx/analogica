@@ -20,7 +20,7 @@ La conexión en serie la función que tienes es sumar los voltajes de cada una d
 
 Unas de los cuidados que debemos tener es que todas las baterías deben ser de las mismas características, tanto en voltaje como en corriente, dado que si hay descompensación, la batería se comienza a comportar como una carga y comienza a mermar a las demás y comienza a calentarse, pudiendo causar un accidente.
 
-!!! warning Advertencia
+!!! warning "Advertencia"
     Esta configuracion se debe cuidar que todas las baterias o pilas sean de las mismas caracteristicas.
 
 ![conexion serie baterias](../img/bateria_serie.svg)
@@ -44,7 +44,7 @@ Pero, la corriente sigue siendo la misma a la salida de las conexiones, es decir
 
 La conexión en paralelo tiene la misma función, incrementar la potencia, pero de una manera distinta, la forma en que funciona es sumar la corriente de las baterías y así obtener un corriente mucho mayor. De igual forma las baterías deben ser de las mismas características por el peligro que existe de una explosión o incendio.
 
-!!! danger Precaución
+!!! danger "Precaución"
     Esta configuracion tiene varios cuidados, se puede aplicar, pero en lo general no se recomienda.
 
 
