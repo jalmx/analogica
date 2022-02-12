@@ -21,10 +21,12 @@ Un circuito serie se base en lo previamente visto con relación a la conexión d
 
 ## Circuitos resistivos
 
+Son aquellos circuitos que comprenden de una fuente de energía y puros elementos resistivos. Es decir, no cuenta con algún otro tipo de elemento capacitivo, inductivo, semiconductor, etc.
+
 ```markmap
 # Circuitos electricos resistivos
 
-- En cada circuito los valores resistivos, de voltaje y corriente tienen un comporatimiento distinto 
+- En cada circuito los valores resistivos, de voltaje y corriente tienen un comportamiento distinto 
 
 ## Circuito serie
 
