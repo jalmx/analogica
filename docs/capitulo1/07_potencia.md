@@ -4,22 +4,27 @@ Cuando circula corriente a través de una resistencia, las colisiones de los ele
 
 A continuación se muestran las ecuaciones de Ley de Ohm en combiación de Ley de Watt.
 
-!!! note Voltaje
+!!! note "Voltaje"
     $$V = \frac{P}{I}$$
+
     $$V = \sqrt{P \times R}$$
 
 
-!!! note Corriente
+!!! note "Corriente"
     $$I = \frac{P}{V}$$
+
     $$I = \sqrt{\frac{P}{R}}$$
 
-!!! note Resistencia
+!!! note "Resistencia"
     $$R = \frac{V^2}{P}$$
+
     $$R = \sqrt{\frac{P}{I^2}}$$
 
-!!! note Potencia
+!!! note "Potencia"
     $$P = V \times I$$
+
     $$P = I^2 \times R$$
+
     $$P = \frac{V^2}{R}$$
 
 ## Ejemplos

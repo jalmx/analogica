@@ -1,0 +1,1 @@
+# Circuitos en Serie Resistivo
