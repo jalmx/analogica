@@ -13,7 +13,7 @@
     
     
       
-        <title>Ejercicios - Electrónica Analógica</title>
+        <title>Divisor de tension - Electrónica Analógica</title>
       
     
     
@@ -57,6 +57,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#divisor-de-tension" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -86,7 +91,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Ejercicios
+              Divisor de tension
             
           </span>
         </div>
@@ -396,7 +401,7 @@
   
     <li class="md-nav__item">
       <a href="../11_circuto_serie_resistivos/" class="md-nav__link">
-        Circuitos en Serie Resistivo
+        Circuitos en Serie - Resistivo
       </a>
     </li>
   
@@ -410,7 +415,7 @@
   
     <li class="md-nav__item">
       <a href="../12_circuto_paralelo_resistivo/" class="md-nav__link">
-        Circuitos en Paralelo Resistivo
+        Circuitos en Paralelo - Resistivo
       </a>
     </li>
   
@@ -435,48 +440,6 @@
               
   
   
-  
-    <li class="md-nav__item">
-      <a href="../corriente_dc_ac/" class="md-nav__link">
-        Corriente dc ac
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../divisor_tension/" class="md-nav__link">
-        Divisor tension
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../ejemplos/" class="md-nav__link">
-        Ejemplos
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
     
   
   
@@ -485,11 +448,65 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Divisor de tension
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Ejercicios
+        Divisor de tension
       </a>
       
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ejemplos" class="md-nav__link">
+    Ejemplos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejercicios" class="md-nav__link">
+    Ejercicios
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../15_corriente_dc_ac/" class="md-nav__link">
+        Corriente directa o continua y Corriente alterna
+      </a>
     </li>
   
 
@@ -849,15 +866,64 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ejemplos" class="md-nav__link">
+    Ejemplos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejercicios" class="md-nav__link">
+    Ejercicios
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
               
                 
 
-  <h1>Ejercicios</h1>
-
-
+<h1 id="divisor-de-tension">Divisor de tension</h1>
+<p>El divisor de tensión es una configuración de resistencia, con una amplia aplicación de muchas operaciones electrónicas. Se utiliza para generar un nivel de tensión que necesitemos. Es muy versátil su uso y aplicación. </p>
+<p>Se trata de tan solo tener como mínimo 2 resistencias en serie y tomar el voltaje a la mitad, en caso de tener más resistencias se puede distribuir y tener más señales de referencia.</p>
+<p>La configuración es como se muestra: </p>
+<p><img alt="img" src=""/></p>
+<p>Como podemos observar en el circuito que hay dos resistencias en serie y la medición de voltaje se realiza en la unión de las dos, todo esto referenciado a tierra.</p>
+<p>Te muestro las variantes que puedes observar, esto es simplemente visual, con relación al comportamiento es lo mismo:</p>
+<p><img alt="img" src=""/></p>
+<p>La fórmula que vamos a emplear y conocer cuál será el voltaje de salida:</p>
+<div class="arithmatex">\[V_{out} = V_{in} \frac{R2}{R1+R2} \]</div>
+<h2 id="ejemplos">Ejemplos</h2>
+<h2 id="ejercicios">Ejercicios</h2>
 
               
             </article>
@@ -871,7 +937,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../ejemplos/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Ejemplos" rel="prev">
+        <a href="../13_circuito_resistivo_mixto/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Circuito mixtos Resistivo (Serie-Paralelo)" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -880,20 +946,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Ejemplos
+              Circuito mixtos Resistivo (Serie-Paralelo)
             </div>
           </div>
         </a>
       
       
         
-        <a href="../test/" class="md-footer__link md-footer__link--next" aria-label="Next: Test" rel="next">
+        <a href="../15_corriente_dc_ac/" class="md-footer__link md-footer__link--next" aria-label="Next: Corriente directa o continua y Corriente alterna" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Test
+              Corriente directa o continua y Corriente alterna
             </div>
           </div>
           <div class="md-footer__button md-icon">
