@@ -8,7 +8,7 @@ Un circuito en paralelo se base en lo previamente visto con relación a la conex
 
 > Corriente: La corriente se distribuye entre todos los elementos.
 
-![imange]()
+![imag]()
 <figcaption>La suma de n bifurcaciones de corriente es igual al total de la corriente del circuito. El voltaje en cada resistencia es igual al voltaje de la fuente.</figcaption>
 
 ## Ejemplos
