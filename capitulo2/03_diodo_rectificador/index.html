@@ -13,7 +13,7 @@
     
     
       
-        <title>Ejercicio - Electrónica Analógica</title>
+        <title>Diodo rectificador - Electrónica Analógica</title>
       
     
     
@@ -57,6 +57,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#diodo-rectificador" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -86,7 +91,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Ejercicio
+              Diodo rectificador
             
           </span>
         </div>
@@ -527,50 +532,22 @@
   
   
     <li class="md-nav__item">
-      <a href="../diodo/" class="md-nav__link">
+      <a href="../01_semiconductores/" class="md-nav__link">
+        Semiconductores
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02_diodo/" class="md-nav__link">
         Diodo
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../diodo_rectificador/" class="md-nav__link">
-        Diodo rectificador
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../diodo_zener/" class="md-nav__link">
-        Diodo zener
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../ejemplo/" class="md-nav__link">
-        Ejemplo
       </a>
     </li>
   
@@ -589,11 +566,93 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Diodo rectificador
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Ejercicio
+        Diodo rectificador
       </a>
       
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#rectificador-de-media-onda" class="md-nav__link">
+    Rectificador de Media Onda
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rectificador-de-onda-completa-puente-rectificador" class="md-nav__link">
+    Rectificador de Onda Completa (Puente rectificador)
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04_diodo_zener/" class="md-nav__link">
+        Diodo zener
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05_leds/" class="md-nav__link">
+        LEDs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06_leds_propocito_especial/" class="md-nav__link">
+        LEDs de propósito especial
+      </a>
     </li>
   
 
@@ -821,15 +880,87 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#rectificador-de-media-onda" class="md-nav__link">
+    Rectificador de Media Onda
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rectificador-de-onda-completa-puente-rectificador" class="md-nav__link">
+    Rectificador de Onda Completa (Puente rectificador)
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
               
                 
 
-  <h1>Ejercicio</h1>
-
-
+<h1 id="diodo-rectificador">Diodo rectificador</h1>
+<p>El diodo rectificador es una aplicación del diodo genérico, a lo que hace referencia que el diodo rectifique, en concreto, es que recorta una señal alterna, solo dejando pasar una parte de ella, ya sea positiva o negativa, depende como se haya conectado.</p>
+<h2 id="rectificador-de-media-onda">Rectificador de Media Onda</h2>
+<p>Esta aplicación la podríamos decir que es la “conversión de corriente alterna a directa”, desde el punto de vista del contexto que queremos pasar la corriente que tenemos en un contacto convencional de 127VAC para obtener en general una “corriente Directa o Continua”. 
+La conversión más básica se llama <strong>Rectificación de Media Onda</strong>, como se muestra en la siguiente imagen:</p>
+<p><img alt="circuito media onda" src=""/></p>
+<p>Aquí tenemos que observar como está conectado el diodo, pero al mismo tiempo debemos poner mucha atención en el tipo de voltaje al que lo tenemos conectado, es Voltaje Alterno, ya sabemos que este tipo de voltaje no tiene polaridad concreta, es decir, su polaridad cambia constantemente, no tiene una polaridad constante; ahora que tenemos esas consideraciones aplicadas hacia el diodo, nos damos cuenta de que en un momento el diodo está conectado de forma directa y al siguiente instante de forma inversa, este efecto lo que logra es que a la salida del diodo está recortando o eliminando una parte del voltaje de entrada. En este caso por la forma en que está conectado, se elimina la parte negativa de la onda, y al solo quedar una parte de la onda, se le llama <strong>“Rectificador de Media Onda”</strong>. <em>Con esto logramos que la corriente se convierta en directa, al solo tener una parte positiva</em>.</p>
+<p>Para evitar perder tanto voltaje, se puede aplicar con 2 diodos como se muestra:</p>
+<p><img alt="circuito rectificador media onda" src=""/></p>
+<figcaption>Aquí estamos recuperando la parte positiva del otro semi ciclo.</figcaption>
+<h2 id="rectificador-de-onda-completa-puente-rectificador">Rectificador de Onda Completa (Puente rectificador)</h2>
+<p>La siguiente esta es tener un rectificador de onda completa, la cual se tienen que aplicar 4 diodos en configuración puente, a este arreglo de diodos se llama <strong>Puente Rectificador</strong> o <strong>Rectificador de Onda completa</strong>.</p>
+<p>Se ilustra a continuación:</p>
+<p><img alt="puente rectificador" src=""/></p>
+<p>Con esta configuración se tiene el total de la conversión de la corriente alterna a directa.</p>
+<p>En la figura se muestra:</p>
+<p><img alt="funcionamiento del rectificador" src=""/></p>
+<p>El símbolo que se puede encontrar para un puente rectificador:</p>
+<table>
+<thead>
+<tr>
+<th>Representación 1</th>
+<th>Representación 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Aplicación más clásica de un puente rectificador es una fuente de alimentación lineal, como se muestra en la imagen.</p>
+<p><img alt="circuito con puente rectificador de una fuente de 5V" src=""/></p>
+<p><a href="https://www.falstad.com/circuit/circuitjs.html">Simulador</a></p>
 
               
             </article>
@@ -843,7 +974,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../ejemplo/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Ejemplo" rel="prev">
+        <a href="../02_diodo/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Diodo" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -852,20 +983,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Ejemplo
+              Diodo
             </div>
           </div>
         </a>
       
       
         
-        <a href="../test/" class="md-footer__link md-footer__link--next" aria-label="Next: Test" rel="next">
+        <a href="../04_diodo_zener/" class="md-footer__link md-footer__link--next" aria-label="Next: Diodo zener" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Test
+              Diodo zener
             </div>
           </div>
           <div class="md-footer__button md-icon">

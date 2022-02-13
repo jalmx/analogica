@@ -13,7 +13,7 @@
     
     
       
-        <title>Ejemplo - Electrónica Analógica</title>
+        <title>LEDs - Electrónica Analógica</title>
       
     
     
@@ -57,6 +57,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#leds" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -86,7 +91,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Ejemplo
+              LEDs
             
           </span>
         </div>
@@ -527,7 +532,21 @@
   
   
     <li class="md-nav__item">
-      <a href="../diodo/" class="md-nav__link">
+      <a href="../01_semiconductores/" class="md-nav__link">
+        Semiconductores
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02_diodo/" class="md-nav__link">
         Diodo
       </a>
     </li>
@@ -541,7 +560,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../diodo_rectificador/" class="md-nav__link">
+      <a href="../03_diodo_rectificador/" class="md-nav__link">
         Diodo rectificador
       </a>
     </li>
@@ -555,7 +574,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../diodo_zener/" class="md-nav__link">
+      <a href="../04_diodo_zener/" class="md-nav__link">
         Diodo zener
       </a>
     </li>
@@ -575,9 +594,11 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
+        
+      
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Ejemplo
+        LEDs
       </a>
       
     </li>
@@ -591,8 +612,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../ejercicio/" class="md-nav__link">
-        Ejercicio
+      <a href="../06_leds_propocito_especial/" class="md-nav__link">
+        LEDs de propósito especial
       </a>
     </li>
   
@@ -821,15 +842,57 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
               
                 
 
-  <h1>Ejemplo</h1>
+<h1 id="leds">LEDs</h1>
+<p>Diodo Emisor de Luz, comúnmente llamado LED es un elemento optoelectrónico, el cual es un diodo especial que generar una emisión de fotones (luz).  El LED a final de cuenta es un diodo, los principios básicos le aplican de la misma manera, tiene unas características que no tiene el diodo genérico, las cuales debemos de tener en cuenta para saberlo ocupar.</p>
+<p><img alt="foto de diversos leds" src=""/></p>
+<p>Un LED en condiciones ideales en teoría es eterno, y como base su tiempo de vida es de 20 años. Siempre y cuando se maneje de forma correcta se puede lograr.</p>
+<p>En la siguiente imagen se pueden observar los detalles del encapsulado de un LED </p>
+<p><img alt="arquitectura interna del led" src=""/></p>
+<p><strong>El símbolo del LED</strong> se ve a continuación, se lee de igual manera que un diodo, agregando dos flechas que salen, que hacen el indicativo que emite luz:</p>
+<p><img alt="simbolo led" src=""/></p>
+<figcaption>Para aplicar LEDs debemos siempre dirigirnos a la hoja de datos del fabricante y saber la electrónica que debamos aplicar.<figcaption>
 
+!!! note "Nota"
+    Como un estándar común o normal o base se toman las siguientes características como las que se aplican por default (cada color tiene características similares, no infrarrojos): 2.1V a 15mA
 
+A continuación se muestra un fragmento de un datasheet de un LED de la marca Vishay:
+
+&gt; agregar el datasheet
+
+|Dato|Valor
+|:-:|:-:|
+|Voltaje|2V
+|Corriente|10mA
+|Color|Rojo
+|Dimensiones|5mm
+
+## Ejercicios
+
+## Ejemplos</figcaption></figcaption>
 
               
             </article>
@@ -843,7 +906,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../diodo_zener/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Diodo zener" rel="prev">
+        <a href="../04_diodo_zener/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Diodo zener" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -859,13 +922,13 @@
       
       
         
-        <a href="../ejercicio/" class="md-footer__link md-footer__link--next" aria-label="Next: Ejercicio" rel="next">
+        <a href="../06_leds_propocito_especial/" class="md-footer__link md-footer__link--next" aria-label="Next: LEDs de propósito especial" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Ejercicio
+              LEDs de propósito especial
             </div>
           </div>
           <div class="md-footer__button md-icon">
