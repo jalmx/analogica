@@ -6,7 +6,7 @@ title: Tags
 
 
 
-## <span class="tag">basico</span>
+## <span class="tag">básico</span>
 
   * [06_ley_de_oh](capitulo1/06_ley_de_ohm.md)
 
