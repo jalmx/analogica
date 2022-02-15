@@ -1,6 +1,6 @@
-# Diodo zener
+# Diodo Zener
 
-El diodo zener es un diodo de propósito especial. Su propósito es mantener prácticamente constan la tensión en la carga a pesar de las variaciones en la tensión y resistencia de carga.
+El diodo zener es un diodo de propósito especial. Su propósito es mantener prácticamente constante la tensión en la carga a pesar de las variaciones en la tensión y resistencia de carga, pero se debe mantener una corriente minima para que opere.
 
 A continuación podemos ver su símbolo y su gráfica, de como se comporta con relación al voltaje y la corriente.
 

@@ -1,8 +1,8 @@
-# Potencia
+# Potencia (Eléctrica)
 
 Cuando circula corriente a través de una resistencia, las colisiones de los electrones producen calor a consecuencia de la conversión de la energía eléctrica. La potencia se mide en Watts (W). A esto se le conoce como la **Ley de Watt**.
 
-A continuación se muestran las ecuaciones de Ley de Ohm en combiación de Ley de Watt.
+A continuación se muestran las ecuaciones de Ley de Ohm en combinación de Ley de Watt.
 
 !!! note "Voltaje"
     $$V = \frac{P}{I}$$

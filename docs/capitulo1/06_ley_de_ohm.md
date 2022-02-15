@@ -1,7 +1,7 @@
 ---
 tags:
   - ley de ohm
-  - basico
+  - básico
 ---
 
 # Ley de Ohm

@@ -7,7 +7,7 @@ Tenemos una variedad de LEDs con propósitos específicos, dependiendo la aplica
 La diferencia principal del display de 7 segmentos es que se eligen por ser Ánodo o Cátodo común, es decir, el display está formado por 7 leds internos y todos ya sea su terminal positiva o negativa están unidas, por ello se le da el nombre de ánodo común o cátodo común.
 
 ![imagen descriptiva de una display de 7 segmentos]()
-<figcaption>imagen descriptiva de una display de 7 segmentos</figcaption>
+<figcaption>Imagen descriptiva de una display de 7 segmentos</figcaption>
 
 ## Display Matricial
 

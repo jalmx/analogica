@@ -32,15 +32,15 @@ La notación de ingeniería es similar a la notación científica. Sin embargo, 
 
 Aplicar los múltiplos y submúltiplos en las siguientes cifras
 
-|No|Cifra|Notación|
-|:-:|-|-|
-|1|$1,000,000$||
-|2|$3,300$||
-|3|$4,700$||
-|4|$0.001$||
-|5|$0.000022$||
-|6|$220,000$||
-|7|$0.005$||
-|8|$0.1$||
-|9|$2,200$||
-|10|$560,000$||
+|Cifra|Notación|
+|-|-|
+|$1,000,000$||
+|$3,300$||
+|$4,700$||
+|$0.001$||
+|$0.000022$||
+|$220,000$||
+|$0.005$||
+|$0.1$||
+|$2,200$||
+|$560,000$||

@@ -7,7 +7,7 @@ Cuando dos o más resistencias se conectan individualmente entre dos puntos dist
 
 **==Las resistencias en paralelo es la suma de sus inversos en un inverso==**, es decir; se realiza la suma del inverso de todas las resistencias y una vez se tenga, a esa suma total se aplica un inverso.
 
-> faltan las imagenes 
+> faltan las imágenes 
 
 !!! Tip
     
@@ -17,22 +17,22 @@ Cuando dos o más resistencias se conectan individualmente entre dos puntos dist
 ## Ejemplos:
 
 !!! example Ejemplo
-    **1. Obtenner la resistencia total del siguiente circuito** <br>
+    **1. Obtener la resistencia total del siguiente circuito** <br>
     **Diagrama** <br>
     **Calculo:** <br>
 
 !!! example Ejemplo
-    **2. Obtenner la resistencia total del siguiente circuito** <br>
+    **2. Obtener la resistencia total del siguiente circuito** <br>
     **Diagrama** <br>
     **Calculo:** <br>
 
 !!! example Ejemplo
-    **3. Obtenner la resistencia total del siguiente circuito** <br>
+    **3. Obtener la resistencia total del siguiente circuito** <br>
     **Diagrama** <br>
     **Calculo:** <br>
 
 !!! example Ejemplo
-    **4. Obtenner la resistencia total del siguiente circuito** <br>
+    **4. Obtener la resistencia total del siguiente circuito** <br>
     **Diagrama** <br>
     **Calculo:** <br>
 
@@ -42,21 +42,21 @@ Cuando dos o más resistencias se conectan individualmente entre dos puntos dist
 Resolver los siguientes ejercicios aplicando las reglas de las resistencias en serie.
 
 !!! note "Ejercicio"
-    **1. Obtenner la resistencia total del siguiente circuito** <br>
+    **1. Obtener la resistencia total del siguiente circuito** <br>
     **Diagrama:** <br>
-    **Calculos:** <br><br><br><br><br>
+    **Cálculos:** <br><br><br><br><br>
 
 !!! note "Ejercicio"
-    **2. Obtenner la resistencia total del siguiente circuito** <br>
+    **2. Obtener la resistencia total del siguiente circuito** <br>
     **Diagrama:** <br>
-    **Calculos:** <br><br><br><br><br>
+    **Cálculos:** <br><br><br><br><br>
 
 !!! note "Ejercicio"
-    **3. Obtenner la resistencia total del siguiente circuito** <br>
+    **3. Obtener la resistencia total del siguiente circuito** <br>
     **Diagrama:** <br>
-    **Calculos:** <br><br><br><br><br>
+    **Cálculos:** <br><br><br><br><br>
 
 !!! note "Ejercicio"
-    **4. Obtenner la resistencia total del siguiente circuito** <br>
+    **4. Obtener la resistencia total del siguiente circuito** <br>
     **Diagrama:** <br>
-    **Calculos:** <br><br><br><br><br>
+    **Cálculos:** <br><br><br><br><br>

@@ -1,6 +1,6 @@
 # Diodo
 
-El diodo es el elemento más básico de los semiconductores, a partir de él se crearon los demás. 
+> El diodo es el elemento más básico de los semiconductores, a partir de él se crearon los demás. 
 
 ## Diodo ideal
 

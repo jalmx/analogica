@@ -2,4 +2,4 @@
 
 Yo mismo y mis experiencias, mas los libros 
 
-> Por colocar
+- **Floyd**. <u>Principios de circuitos eléctricos</u>. Octava edición. Pearson Prentice Hall.
