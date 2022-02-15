@@ -13,7 +13,7 @@
     
     
       
-        <title>Diodo zener - Electrónica Analógica</title>
+        <title>Diodo Zener - Electrónica Analógica</title>
       
     
     
@@ -91,7 +91,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Diodo zener
+              Diodo Zener
             
           </span>
         </div>
@@ -231,7 +231,21 @@
   
     <li class="md-nav__item">
       <a href="../../capitulo1/" class="md-nav__link">
-        Introudccion a Electrónica basíca
+        Introducción a la electronica
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../capitulo1/00_introduccion/" class="md-nav__link">
+        Introducción a Electrónica básica
       </a>
     </li>
   
@@ -329,7 +343,7 @@
   
     <li class="md-nav__item">
       <a href="../../capitulo1/07_potencia/" class="md-nav__link">
-        Potencia
+        Potencia (Eléctrica)
       </a>
     </li>
   
@@ -462,20 +476,6 @@
 
             
           
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../capitulo1/test/" class="md-nav__link">
-        Test
-      </a>
-    </li>
-  
-
-            
-          
         </ul>
       </nav>
     </li>
@@ -584,12 +584,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Diodo zener
+          Diodo Zener
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Diodo zener
+        Diodo Zener
       </a>
       
         
@@ -658,20 +658,6 @@
 
             
           
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../test/" class="md-nav__link">
-        Test
-      </a>
-    </li>
-  
-
-            
-          
         </ul>
       </nav>
     </li>
@@ -713,7 +699,7 @@
   
     <li class="md-nav__item">
       <a href="../../capitulo3/" class="md-nav__link">
-        Semiconductor - Transistores
+        Semiconductor - Transistores (BJT)
       </a>
     </li>
   
@@ -726,50 +712,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../capitulo3/ejemplo/" class="md-nav__link">
-        Ejemplo
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../capitulo3/ejercicio/" class="md-nav__link">
-        Ejercicio
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../capitulo3/test/" class="md-nav__link">
-        Test
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../capitulo3/transistor_conmutador/" class="md-nav__link">
-        Transistor conmutador
+      <a href="../../capitulo3/01_transistor_conmutador/" class="md-nav__link">
+        Transistor como Switch (Corto-Saturación)
       </a>
     </li>
   
@@ -818,34 +762,6 @@
     <li class="md-nav__item">
       <a href="../../capitulo4/" class="md-nav__link">
         PCB
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../capitulo4/ejemplo/" class="md-nav__link">
-        Ejemplo
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../capitulo4/ejercicio/" class="md-nav__link">
-        Ejercicio
       </a>
     </li>
   
@@ -926,8 +842,8 @@
               
                 
 
-<h1 id="diodo-zener">Diodo zener</h1>
-<p>El diodo zener es un diodo de propósito especial. Su propósito es mantener prácticamente constan la tensión en la carga a pesar de las variaciones en la tensión y resistencia de carga.</p>
+<h1 id="diodo-zener">Diodo Zener</h1>
+<p>El diodo zener es un diodo de propósito especial. Su propósito es mantener prácticamente constante la tensión en la carga a pesar de las variaciones en la tensión y resistencia de carga, pero se debe mantener una corriente minima para que opere.</p>
 <p>A continuación podemos ver su símbolo y su gráfica, de como se comporta con relación al voltaje y la corriente.</p>
 <p><img alt="grafica del diodo zener" src=""/></p>
 <p>Nos podemos topar con cualquiera de estos dos símbolos. Algo vital e importante es que para que el diodo zener funcione, es decir, que regule la tensión, el voltaje debe ser mayor a su <strong>Voltaje Zener</strong> (<span class="arithmatex">\(Vz\)</span>) que también es <em>llamado región de disrupción</em>, de lo contrario no regula y entrega el voltaje que le está llegando. Segundo punto vital es la <strong>Corriente Zener</strong> (<span class="arithmatex">\(Iz\)</span>), es decir, la corriente máxima que puede soportar, si la sobrepasamos se dañara (<em>Esto se ve en su hoja de especificaciones - Datasheet</em>).</p>
