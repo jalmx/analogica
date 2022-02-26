@@ -1,1 +1,0 @@
-# Tendra todos los script para la ejecucion

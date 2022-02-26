@@ -1,1 +1,1 @@
-# cambiar el alto de los mapas mentales
+# cambiar el alto de los mapas mentales #esto se hare por js al renderizar
