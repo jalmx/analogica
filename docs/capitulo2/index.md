@@ -1,8 +1,10 @@
 # Capítulo 2
 
+## Mapa del capítulo 2
+
 ```markmap
 
-# [Semiconductores - Diodos](01_semiconductores)
+# [Semiconductores](01_semiconductores)
 
 ## [Diodo ideal](02_diodo)
 
