@@ -9,3 +9,7 @@ Cualquier detalle o error notificarme a mi correo: Errores reportarlos a [correo
 **Para navegar utilizar el menu de lado izquierdo** 
 
 En construcción, ir a [el inicio del capitulo 1](capitulo1/00_introduccion.md)
+
+## Mapa del sitio
+
+<!-- Map site insert -->

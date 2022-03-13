@@ -1,7 +1,6 @@
 # Capítulo 1
 
-```markmap
-# RCEESC
 
+## Mapa del sitio
 
-```
+<!-- Map site insert -->

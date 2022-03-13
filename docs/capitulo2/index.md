@@ -24,3 +24,7 @@
 - [Display matricial](06_leds_propocito_especial#display-matricial)
 - [Led RGB](06_leds_propocito_especial#led-rgb)
 ```
+
+## Mapa del sitio
+
+<!-- Map site insert -->
