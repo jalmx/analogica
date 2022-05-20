@@ -63,7 +63,7 @@ tags:
     
     $$R=\frac{V}{I}=\frac{12V}{3.08A}=3.90 \Omega$$
 
-## Ejercicios:
+## Ejercicios
 
 !!! note Ejercicio 1
     **1. Determine la corriente en el circuito mostrado:**<br> 

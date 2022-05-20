@@ -133,7 +133,7 @@ def build_markmap_with_link(list_structure_header: dict, flag_to_start="<!-- Map
     map_init = "```markmap"
     map_end = "\n```"
 
-    content = f"\n{flag_to_start}\n{map_init}\n"
+    content = f"\n{flag_to_start}\n{'<!-- AUTO GENERATED -->'}\n{map_init}\n"
     content += f'{list_structure_header["structure_index_title"]["h1"][0]}\n\n'
 
     for structure in list_structure_header["list_structure"]:
@@ -163,7 +163,7 @@ def build_markmap(list_structure_header: dict, flag_to_start="<!-- Map site star
     for structure in list_structure_header["list_structure"]:
         content += build_section_markmap(structure['structure'])
 
-    content += f'\n{map_end}\n{flag_to_end}\n'
+    content += f'\n{map_end}\n{"<!-- AUTO GENERATED -->"}\n{flag_to_end}\n'
     return content
 
 

@@ -10,7 +10,7 @@ En la figura podemos observar que R2 y R3 están en paralelo, por lo tanto, se r
 
 
 
-## Ejemplos:
+## Ejemplos
 
 |Resistencia mixta|
 |-|

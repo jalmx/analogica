@@ -14,7 +14,7 @@ Cuando dos o más resistencias se conectan individualmente entre dos puntos dist
     Siempre el valor de la resistencia total en paralelo debe ser mucho menor que la resistencia más pequeña en el circuito.
 
 
-## Ejemplos:
+## Ejemplos
 
 !!! example Ejemplo
     **1. Obtener la resistencia total del siguiente circuito** <br>

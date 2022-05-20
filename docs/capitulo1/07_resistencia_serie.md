@@ -11,7 +11,7 @@ Cuando se conectan los resistores y forman una hilera, en la cual existe solo un
 
     Siempre el valor de la resistencia total en serie debe ser mucho mayor que la resistencia más alta en el circuito.
 
-## Ejemplos:
+## Ejemplos
 
 !!! example Ejemplo
     **1. Obtenner la resistencia total del siguiente circuito** <br>
