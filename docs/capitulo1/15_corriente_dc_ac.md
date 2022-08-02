@@ -4,12 +4,12 @@ De manera general existen dos tipos de corrientes, la corriente alterna y la cor
 
 **En esencia son lo mismo, es un flujo de electrones, su punto diferencial principal es su comportamiento en el tiempo y un segundo diferenciador es la dirección de la corriente o la polaridad, pero esto no es siempre.**
 
-![img]()
+![img](../img/png/Antologia.pdf-365.opt.png)
 
 ## La corriente directa o continua
 
 Entre la corriente continua y directa hay diferencias sutiles, aunque en muchas ocasiones se toman por igual porque en normalmente funcionan para lo mismo.
-En concreto la corriente directa se llama así porque la corriente es constante en el tiempo, es decir, no varían y se mantiene estable.
+En concreto, la corriente directa se llama así porque la corriente es constante en el tiempo, es decir, no varían y se mantiene estable.
 
 <!-- agregar una imagen representativa -->
 

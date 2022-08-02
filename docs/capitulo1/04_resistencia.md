@@ -29,6 +29,9 @@ Es imposible que existan todos los valores posibles de resistencias, por ello, e
 
 ![tabla de resistencias comerciales](https://www.electrontools.com/Home/WP/wp-content/uploads/2016/04/Resistencia.png)
 
+
+![ de resistencias comerciales](http://2.bp.blogspot.com/-fGX_kstG87o/T021cSEL79I/AAAAAAAABBI/S8haYftrd4w/s1600/RESISTENCIAS+COMERCIALES.png)
+
 <!-- TODO: Crear mi propia imagen la tabla de colores, o crearla conn JS  -->
 
 ## Ejemplos

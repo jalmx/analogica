@@ -80,6 +80,13 @@ Realizar el calculo de voltaje y corriente total en cada uno de los circuitos
 |![circuito paralelo](../img/bateria_paralelo_vacio_2.svg)|$V_{bat}=3V$<br>$I_{bat}=1000 \mu A$||
 |![circuito paralelo](../img/bateria_paralelo_vacio_3.svg)|$V_{bat}=9V$<br>$I_{bat}=750mA$||
 |![circuito paralelo](../img/bateria_paralelo_vacio_3.svg)|$V_{bat}=48V$<br>$I_{bat}=10mA$||
+|![circuito paralelo](../img/png/bat_example_1.png)|$V_{bat}=9V$<br>$I_{bat}=500mA$||
+|![circuito paralelo](../img/png/bat_example_2.png)|$V_{bat}=1.5V$<br>$I_{bat}=10mA$||
+|![circuito paralelo](../img/png/bat_example_3.png)|$V_{bat}=5V$<br>$I_{bat}=10mA$||
+|![circuito paralelo](../img/png/bat_example_4.png)|$V_{bat}=3.7V$<br>$I_{bat}=500mA$||
+|![circuito paralelo](../img/png/bat_example_5.png)|$V_{bat}=1.5V$<br>$I_{bat}=10mA$||
+|![circuito paralelo](../img/png/bat_example_6.png)|$V_{bat}=3V$<br>$I_{bat}=125mA$||
+|![circuito paralelo](../img/png/bat_example_7.png)|$V_{bat}=3.7V$<br>$I_{bat}=1A$||
 
 
 

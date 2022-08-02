@@ -33,7 +33,7 @@ tags:
 !!! example Ejemplo
     **1. ¿Cuántos ampers de corriente hay en el circuito?** <br>
     **Diagrama:** <br>
-    ![diagrama](fia.png) <br>
+    ![diagrama](../img/png/Antologia.pdf-104.opt.png) <br>
     **Solución:**   <br>
     Aplicando la ley de Ohm, despejamos la corriente y obtenemos 
 
@@ -42,6 +42,7 @@ tags:
 !!! example Ejemplo
     **2. Determine la corriente en el circuito mostrado:** <br>
     **Diagrama:** <br>
+    ![diagrama](../img/png/Antologia.pdf-110.opt.png) <br>
     **Solución:** <br>
     Aplicando la ley de Ohm, despejamos la corriente y obtenemos
 
@@ -52,7 +53,7 @@ tags:
     **Diagrama:**<br>
     **Solución:**<br>
     Aplicando la ley de Ohm, despejamos el voltaje y obtenemos 
-    
+    ![diagrama](../img/png/Antologia.pdf-113.opt.png) <br>
     $$V=IR = (5mA)(56 \Omega) = 280mV$$
 
 !!! example Ejemplo
@@ -60,7 +61,7 @@ tags:
     **Diagrama:**<br>
     **Solución:**<br>
     Aplicando la ley de Ohm, despejamos la resistencia y obtenemos 
-    
+    ![diagrama](../img/png/Antologia.pdf-116.opt.png) <br>
     $$R=\frac{V}{I}=\frac{12V}{3.08A}=3.90 \Omega$$
 
 ## Ejercicios
@@ -68,67 +69,28 @@ tags:
 !!! note Ejercicio 1
     **1. Determine la corriente en el circuito mostrado:**<br> 
     **Diagrama:** <br> 
-    **Solucion:** <br> 
+    ![diagrama](../img/png/Antologia.pdf-122.opt.png) <br>
+    **Solución:** <br> 
     <br><br><br><br><br>
 
 !!! note Ejercicio 2
     **2. Determine la corriente en el circuito mostrado:**
-    **Diagrama:** 
-    **Solucion:** 
+    **Diagrama:** <br> 
+    ![diagrama](../img/png/Antologia.pdf-123.opt.png) <br>
+    **Solución:** 
     <br><br><br><br><br>
 
 !!! note Ejercicio 3
     **3. Determine la corriente en el circuito mostrado:**
-    **Diagrama:** 
-    **Solucion:** 
+    **Diagrama:** <br> 
+    ![diagrama](../img/png/Antologia.pdf-127.opt.png) <br>
+    **Solución:** 
     <br><br><br><br><br>
 
 !!! note Ejercicio 4
     **4. Determine la corriente en el circuito mostrado:**
-    **Diagrama:** 
-    **Solucion:** 
-    <br><br><br><br><br>
-
----
-
-## Ley de Watt - Potencia
-
-Cuando circula corriente a través de una resistencia, *las colisiones de los electrones producen calor a consecuencia de la conversión de la energía eléctrica*. La potencia se mide en Watts ($W$). A esto se le conoce como la **Ley de Watt**.
-
-> imagen de la tabla de Watts
-
-Aplicando Ley de Watt
-
-!!! example "Ejemplo"
-    **1. Calcula la potencia en el circuito** <br>
-    **Diagrama:** <br>
-    **Solución:**<br>
-    Aplicando la ley de Watt, despejamos la potencia y obtenemos 
-
-    $$P=VI = (10V)(2A) = 20W$$
-
-!!! example Ejemplo
-    **2. Calcula la potencia en el circuito** <br>
     **Diagrama:** <br> 
-    **Solución:** <br>
-    Aplicando la ley de Watt, despejamos la potencia y obtenemos 
-
-    $$P=VI = (10V)(2A) = 20W$$
-
-!!! example Ejemplo
-    **3. Calcula la potencia en el circuito** <br>
-    **Diagrama:** <br>
-    **Solución:** <br>
-    Aplicando la ley de Watt, despejamos la potencia y obtenemos
-
-    $$P=VI = (10V)(2A) = 20W$$
-
-## Ejercicios
-
-Aplicando Ley de Watt
-
-!!! note Ejercicio 1
-    **1. Calcula la potencia en el circuito:** <br>
-    **Diagrama:** ![description](enlace.png) <br>
-    **Solucion:**  <br>
+    ![diagrama](../img/png/Antologia.pdf-128.opt.png) <br>
+    **Solución:** 
     <br><br><br><br><br>
+
