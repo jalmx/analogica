@@ -426,6 +426,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#ejercicios" class="md-nav__link">
+    Ejercicios
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -456,7 +463,7 @@
   
     <li class="md-nav__item">
       <a href="../11_circuto_serie_resistivos/" class="md-nav__link">
-        Circuitos en Serie - Resistivo
+        Circuitos en Serie Resistivo
       </a>
     </li>
   
@@ -470,7 +477,7 @@
   
     <li class="md-nav__item">
       <a href="../12_circuto_paralelo_resistivo/" class="md-nav__link">
-        Circuitos en Paralelo - Resistivo
+        Circuitos en Paralelo Resistivo
       </a>
     </li>
   
@@ -829,6 +836,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#ejercicios" class="md-nav__link">
+    Ejercicios
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -844,49 +858,33 @@
 
 <h1 id="resistencias-en-conexion-serie-paralelo-mixto">Resistencias en conexión Serie-Paralelo (Mixto)</h1>
 <p>La conexión de resistencia en la forma mixta, es la combinación de las dos anteriormente vistas. Es decir, tenemos que observar cuáles se encuentran en paralelo y cuáles en serie e ir haciendo la reducción hasta obtener la resistencia equivalente.</p>
-<p><img alt="imagen" src=""/></p>
+<p><img alt="imagen" src="../../img/png/Antologia.pdf-215.opt.png"/></p>
 <p>En la figura podemos observar que R2 y R3 están en paralelo, por lo tanto, se resuelve por paralelo y a esa resistencia total queda en serie con R1, nos quedaría realizar la suma y obtener la resistencia total.</p>
-<p><img alt="imagen" src=""/></p>
+<p><img alt="imagen" src="../../img/png/Antologia.pdf-219.opt.png"/></p>
+<p>En ese siguiente ejemplo, tenemos en paralelo a <span class="arithmatex">\(R2\)</span> y <span class="arithmatex">\(R3\)</span>, resolvemos ese paralelo. Ahora <span class="arithmatex">\(R1\)</span> y <span class="arithmatex">\(R4\)</span> están en serie, por lo tanto aplicamos la fórmula, una vez tenemos el resultado del paralelo <span class="arithmatex">\(R2R3\)</span> y el resultado de la serie <span class="arithmatex">\(R1R4\)</span>, nos quedan en serie, solo nos queda hacer esa suma y obtener la resistencia total.</p>
 <h2 id="ejemplos">Ejemplos</h2>
-<table>
-<thead>
-<tr>
-<th>Resistencia mixta</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Diagrama:</strong></td>
-</tr>
-<tr>
-<td><strong>Solución:</strong></td>
-</tr>
-<tr>
-<td><strong>Diagrama:</strong></td>
-</tr>
-<tr>
-<td><strong>Solución:</strong></td>
-</tr>
-<tr>
-<td><strong>Diagrama:</strong></td>
-</tr>
-<tr>
-<td><strong>Solución:</strong></td>
-</tr>
-<tr>
-<td><strong>Diagrama:</strong></td>
-</tr>
-<tr>
-<td><strong>Solución:</strong></td>
-</tr>
-<tr>
-<td><strong>Diagrama:</strong></td>
-</tr>
-<tr>
-<td><strong>Solución:</strong></td>
-</tr>
-</tbody>
-</table>
+<div class="admonition example ejemplo">
+<p class="admonition-title">Example</p>
+<p><strong>1. Obtener la resistencia equivalente del circuito</strong> <br/>
+<strong>Diagrama:</strong> <br/>
+<img alt="diagrama" src="../../img/png/Antologia.pdf-223.opt.png"/> <br/>
+<strong>Solución:</strong> <br/>
+Observamos el paralelo de <span class="arithmatex">\(R2\)</span> con <span class="arithmatex">\(R3\)</span> (<span class="arithmatex">\(R2||R3\)</span>)</p>
+<div class="arithmatex">\[R_{23}=\frac{1}{\frac{1}{R_2}+\frac{1}{R_3}}=\frac{1}{\frac{1}{100\Omega}+\frac{1}{100\Omega}}=50\Omega\]</div>
+<p>Ahora, nos queda <span class="arithmatex">\(R1\)</span> en serie con <span class="arithmatex">\(R2||R3\)</span>, solo nos queda realizar la suma:</p>
+<div class="arithmatex">\[R_T=R_1 + R_{23} = 10\Omega + 50\Omega\]</div>
+<blockquote>
+<div class="arithmatex">\[R_T=60\Omega\]</div>
+</blockquote>
+</div>
+<h2 id="ejercicios">Ejercicios</h2>
+<div class="admonition example ejercicio">
+<p class="admonition-title">Example</p>
+<p><strong>1. Obtener la resistencia equivalente del circuito</strong> <br/>
+<strong>Diagrama:</strong> <br/>
+<img alt="diagrama" src="../../img/png/Antologia.pdf-223.opt.png"/> <br/>
+<strong>Solución:</strong> <br/><br/><br/><br/></p>
+</div>
 
               
             </article>

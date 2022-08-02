@@ -13,7 +13,7 @@
     
     
       
-        <title>Circuitos en Serie - Resistivo - Electrónica Analógica</title>
+        <title>Circuitos en Serie Resistivo - Electrónica Analógica</title>
       
     
     
@@ -91,7 +91,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Circuitos en Serie - Resistivo
+              Circuitos en Serie Resistivo
             
           </span>
         </div>
@@ -424,12 +424,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Circuitos en Serie - Resistivo
+          Circuitos en Serie Resistivo
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Circuitos en Serie - Resistivo
+        Circuitos en Serie Resistivo
       </a>
       
         
@@ -446,6 +446,33 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#comportamiento-de-voltaje-y-corriente-en-serie" class="md-nav__link">
+    Comportamiento de voltaje y corriente en Serie
+  </a>
+  
+    <nav class="md-nav" aria-label="Comportamiento de voltaje y corriente en Serie">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ecuacion-de-voltaje" class="md-nav__link">
+    Ecuación de Voltaje
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecuacion-de-corriente" class="md-nav__link">
+    Ecuación de corriente
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#ejemplos" class="md-nav__link">
@@ -477,7 +504,7 @@
   
     <li class="md-nav__item">
       <a href="../12_circuto_paralelo_resistivo/" class="md-nav__link">
-        Circuitos en Paralelo - Resistivo
+        Circuitos en Paralelo Resistivo
       </a>
     </li>
   
@@ -830,6 +857,33 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#comportamiento-de-voltaje-y-corriente-en-serie" class="md-nav__link">
+    Comportamiento de voltaje y corriente en Serie
+  </a>
+  
+    <nav class="md-nav" aria-label="Comportamiento de voltaje y corriente en Serie">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ecuacion-de-voltaje" class="md-nav__link">
+    Ecuación de Voltaje
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecuacion-de-corriente" class="md-nav__link">
+    Ecuación de corriente
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#ejemplos" class="md-nav__link">
     Ejemplos
   </a>
@@ -856,17 +910,128 @@
               
                 
 
-<h1 id="circuitos-en-serie-resistivo">Circuitos en Serie - Resistivo</h1>
+<h1 id="circuitos-en-serie-resistivo">Circuitos en Serie Resistivo</h1>
 <p>Un circuito serie se base en lo previamente visto con relación a la <em>conexión de resistencias</em>, pero ahora tenemos que conocer las reglas que aplican con respecto al voltaje y la corriente.</p>
 <p><strong>Reglas que debemos grabarnos son el comportamiento del voltaje y la corriente en circuitos serie:</strong></p>
 <blockquote>
 <p>Voltaje: En un circuito serié se distribuye el voltaje entre todas las cargas (resistencias)</p>
 <p>Corriente: La corriente es la misma en todas las cargas (resistencias).</p>
 </blockquote>
-<p><img alt="imagen" src=""/></p>
+<p><img alt="circuito serie" src="../../img/png/Antologia.pdf-249.opt.png"/></p>
 <figcaption>La suma de n caídas de voltaje es igual al voltaje de la fuente. La corriente es la misma en todas las secciones del circuito.</figcaption>
+<h2 id="comportamiento-de-voltaje-y-corriente-en-serie">Comportamiento de voltaje y corriente en Serie</h2>
+<h3 id="ecuacion-de-voltaje">Ecuación de Voltaje</h3>
+<p>El voltaje total es igual a la suma de las caídas de tension:</p>
+<blockquote>
+<div class="arithmatex">\[V_T=V_1+V_2+V_3+V_4+V_5+ ... + V_n\]</div>
+</blockquote>
+<h3 id="ecuacion-de-corriente">Ecuación de corriente</h3>
+<p>La corriente es igual es todos los elementos del circuito</p>
+<blockquote>
+<div class="arithmatex">\[I_T=I_1=I_2=I_3=I_4=I_5=... =I_n\]</div>
+</blockquote>
 <h2 id="ejemplos">Ejemplos</h2>
+<div class="admonition example ejemplo">
+<p class="admonition-title">Example</p>
+<p><strong>1. Necesitamos conocer el voltaje en cada resistencia y la corriente total:</strong> <br/>
+<strong>Diagrama:</strong> <br/>
+<img alt="diagrama" src="../../img/png/Antologia.pdf-260.opt.png"/> <br/>
+<strong>Solución:</strong> <br/>
+1. Para ello primero calculamos la Resistencia total, para obtener la corriente total del circuito.</p>
+<p>Dado que vemos que todas las resistencias están serie, las vamos a sumar</p>
+<div class="arithmatex">\[R_T=R_1 +R_2 +R_3 + R_4\]</div>
+<div class="arithmatex">\[R_T= 10\Omega + 47\Omega + 100\Omega+ 100\Omega \]</div>
+<blockquote>
+<div class="arithmatex">\[R_T=257\Omega\]</div>
+</blockquote>
+<ol>
+<li>Ya que tenemos la <em>Resistencia total</em>, podemos hacer el cálculo de la <em>Corriente total</em>, aplicamos ley de ohm:</li>
+</ol>
+<blockquote>
+<div class="arithmatex">\[I=\frac{100V}{257 \Omega} = 389.1 mA\]</div>
+</blockquote>
+<ol>
+<li>Ahora podemos calcular el voltaje en cada resistencia, aplicamos ley de ohm:</li>
+</ol>
+<div class="arithmatex">\[V_{R1} = (10 \Omega)(389.1mA)=3.891V\]</div>
+<div class="arithmatex">\[V_{R2} = (47 \Omega)(389.1mA)=18.28V\]</div>
+<div class="arithmatex">\[V_{R3} = (100 \Omega)(389.1mA)=38.91V\]</div>
+<div class="arithmatex">\[V_{R4} = (100 \Omega)(389.1mA)=38.91V\]</div>
+<ol>
+<li>Para la comprobación, debemos sumar todos los voltajes y nos debe dar el valor de la fuente:</li>
+</ol>
+<blockquote>
+<div class="arithmatex">\[V_T= 3.891V + 18.28V + 38.91V +38.91V= 99.99V\]</div>
+</blockquote>
+<p>Comparando el dato del circuito y el que calculamos, es prácticamente el mismo:</p>
+<blockquote>
+<div class="arithmatex">\[100V \approx 999.99V\]</div>
+</blockquote>
+</div>
+<div class="admonition example ejemplo">
+<p class="admonition-title">Example</p>
+<p><strong>2. Necesitamos conocer el voltaje en cada resistencia y la corriente total:</strong> <br/>
+<strong>Diagrama:</strong> <br/>
+<img alt="diagrama" src="../../img/png/Antologia.pdf-285.opt.png"/> <br/>
+<strong>Solución:</strong> <br/>
+1. Para ello primero calculamos la Resistencia total, para obtener la corriente total del circuito.</p>
+<p>Dado que vemos que todas las resistencias están serie, las vamos a sumar</p>
+<div class="arithmatex">\[R_T=R_1 +R_2\]</div>
+<div class="arithmatex">\[R_T= 100\Omega + 56\Omega\]</div>
+<blockquote>
+<div class="arithmatex">\[R_T=156\Omega\]</div>
+</blockquote>
+<ol>
+<li>Ya que tenemos la <em>Resistencia total</em>, podemos hacer el cálculo de la <em>Corriente total</em>, aplicamos ley de ohm:</li>
+</ol>
+<blockquote>
+<div class="arithmatex">\[I=\frac{10V}{156 \Omega} = 64.1mA\]</div>
+</blockquote>
+<ol>
+<li>Ahora podemos calcular el voltaje en cada resistencia, aplicamos ley de ohm:</li>
+</ol>
+<div class="arithmatex">\[V_{R1} = (100 \Omega)(64.1mA)=6.41V\]</div>
+<div class="arithmatex">\[V_{R2} = (56 \Omega)(64.1mA)=3.59V\]</div>
+<ol>
+<li>Para la comprobación, debemos sumar todos los voltajes y nos debe dar el valor de la fuente:</li>
+</ol>
+<blockquote>
+<div class="arithmatex">\[V_T= 6.41V + 3.59V= 10V\]</div>
+</blockquote>
+<p>Comparando el dato del circuito y el que calculamos, es prácticamente el mismo:</p>
+<blockquote>
+<div class="arithmatex">\[10V = 10V\]</div>
+</blockquote>
+</div>
 <h2 id="ejercicios">Ejercicios</h2>
+<div class="admonition example ejercicio">
+<p class="admonition-title">Example</p>
+<p><strong>1. Necesitamos conocer el voltaje en cada resistencia y la corriente total:</strong> <br/>
+<strong>Diagrama:</strong> <br/>
+<img alt="diagrama" src="../../img/png/Antologia.pdf-308.opt.png"/> <br/>
+<strong>Solución:</strong> <br/><br/><br/><br/></p>
+</div>
+<div class="admonition example ejercicio">
+<p class="admonition-title">Example</p>
+<p><strong>2. Necesitamos conocer el voltaje en cada resistencia y la corriente total:</strong> <br/>
+<strong>Diagrama:</strong> <br/>
+<img alt="diagrama" src="../../img/png/Antologia.pdf-309.opt.png"/> <br/>
+<strong>Solución:</strong> <br/><br/><br/><br/></p>
+</div>
+<div class="admonition example ejercicio">
+<p class="admonition-title">Example</p>
+<p><strong>3. Necesitamos conocer el voltaje en cada resistencia y la corriente total:</strong> <br/>
+<strong>Diagrama:</strong> <br/>
+<img alt="diagrama" src="../../img/png/Antologia.pdf-310.opt.png"/> <br/>
+<strong>Solución:</strong> <br/><br/><br/><br/></p>
+</div>
+<div class="admonition example ejercicio">
+<p class="admonition-title">Example</p>
+<p><strong>3. Necesitamos conocer el voltaje en cada resistencia y la corriente total:</strong> <br/>
+<strong>Diagrama:</strong> <br/>
+<img alt="diagrama" src="../../img/png/Antologia.pdf-314.opt.png"/> <br/>
+<strong>Solución:</strong> <br/><br/><br/><br/></p>
+</div>
 
               
             </article>
@@ -896,13 +1061,13 @@
       
       
         
-        <a href="../12_circuto_paralelo_resistivo/" class="md-footer__link md-footer__link--next" aria-label="Next: Circuitos en Paralelo - Resistivo" rel="next">
+        <a href="../12_circuto_paralelo_resistivo/" class="md-footer__link md-footer__link--next" aria-label="Next: Circuitos en Paralelo Resistivo" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Circuitos en Paralelo - Resistivo
+              Circuitos en Paralelo Resistivo
             </div>
           </div>
           <div class="md-footer__button md-icon">

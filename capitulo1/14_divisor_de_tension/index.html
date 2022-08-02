@@ -415,7 +415,7 @@
   
     <li class="md-nav__item">
       <a href="../11_circuto_serie_resistivos/" class="md-nav__link">
-        Circuitos en Serie - Resistivo
+        Circuitos en Serie Resistivo
       </a>
     </li>
   
@@ -429,7 +429,7 @@
   
     <li class="md-nav__item">
       <a href="../12_circuto_paralelo_resistivo/" class="md-nav__link">
-        Circuitos en Paralelo - Resistivo
+        Circuitos en Paralelo Resistivo
       </a>
     </li>
   
@@ -860,14 +860,77 @@
 <p>El divisor de tensión es una configuración de resistencia, con una amplia aplicación de muchas operaciones electrónicas. Se utiliza para generar un nivel de tensión que necesitemos. Es muy versátil su uso y aplicación. </p>
 <p>Se trata de tan solo tener como mínimo 2 resistencias en serie y tomar el voltaje a la mitad, en caso de tener más resistencias se puede distribuir y tener más señales de referencia.</p>
 <p>La configuración es como se muestra: </p>
-<p><img alt="img" src=""/></p>
+<p><img alt="divisor de tension" src="../../img/png/Antologia.pdf-353.opt.png"/></p>
 <p>Como podemos observar en el circuito que hay dos resistencias en serie y la medición de voltaje se realiza en la unión de las dos, todo esto referenciado a tierra.</p>
 <p>Te muestro las variantes que puedes observar, esto es simplemente visual, con relación al comportamiento es lo mismo:</p>
-<p><img alt="img" src=""/></p>
+<p><img alt="divisor de tension" src="../../img/png/Antologia.pdf-334.opt.png"/></p>
 <p>La fórmula que vamos a emplear y conocer cuál será el voltaje de salida:</p>
+<blockquote>
 <div class="arithmatex">\[V_{out} = V_{in} \frac{R2}{R1+R2} \]</div>
+</blockquote>
 <h2 id="ejemplos">Ejemplos</h2>
+<div class="admonition example ejemplo">
+<p class="admonition-title">Example</p>
+<p><strong>1. Si tenemos un <span class="arithmatex">\(V_{in} = 5V\)</span> y una <span class="arithmatex">\(R_1=R_2=1k\Omega\)</span>. ¿Cuál es el voltaje de salida?</strong> <br/>
+<strong>Diagrama:</strong> <br/>
+<img alt="diagrama" src="../../img/png/Antologia.pdf-353.opt.png"/> <br/>
+<strong>Solución:</strong> <br/>
+Aplicamos la forma de divisor de tension:</p>
+<div class="arithmatex">\[V_{out} = V_{in} \frac{R2}{R1+R2} = (5V) \frac{1k\Omega}{1k\Omega + 1k\Omega}\]</div>
+<div class="arithmatex">\[V_{out} = (5V) \frac{1k\Omega}{2k\Omega}\]</div>
+<p>Nos da un voltaje de salida:</p>
+<blockquote>
+<div class="arithmatex">\[V_{out} = 2.5V\]</div>
+</blockquote>
+</div>
+<div class="admonition example ejemplo">
+<p class="admonition-title">Example</p>
+<p><strong>2. Si tenemos un <span class="arithmatex">\(V_{in} = 9V\)</span> y una <span class="arithmatex">\(R_1 = 1.2k\Omega\)</span> y una <span class="arithmatex">\(R_2 = 5.6k\Omega\)</span>. ¿Cuál es el voltaje de salida?</strong> <br/>
+<strong>Diagrama:</strong> <br/>
+<img alt="diagrama" src="../../img/png/Antologia.pdf-353.opt.png"/> <br/>
+<strong>Solución:</strong> <br/>
+Aplicamos la forma de divisor de tension:</p>
+<div class="arithmatex">\[V_{out} = V_{in} \frac{R2}{R1+R2} = (9V) \frac{5.6k\Omega}{1.2k\Omega + 5.6k\Omega}\]</div>
+<p>Nos da un voltaje de salida:</p>
+<blockquote>
+<div class="arithmatex">\[V_{out} = 7.4V\]</div>
+</blockquote>
+</div>
+<div class="admonition example ejemplo">
+<p class="admonition-title">Example</p>
+<p><strong>3. Si tenemos un <span class="arithmatex">\(V_{in} = 24V\)</span> y una <span class="arithmatex">\(R_1 = 10k\Omega\)</span> y una <span class="arithmatex">\(R_2 = 100k\Omega\)</span>. ¿Cuál es el voltaje de salida?</strong> <br/>
+<strong>Diagrama:</strong> <br/>
+<img alt="diagrama" src="../../img/png/Antologia.pdf-353.opt.png"/> <br/>
+<strong>Solución:</strong> <br/>
+Aplicamos la forma de divisor de tension:</p>
+<div class="arithmatex">\[V_{out} = V_{in} \frac{R2}{R1+R2} = (24V) \frac{100k\Omega}{10k\Omega + 100k\Omega}\]</div>
+<p>Nos da un voltaje de salida:</p>
+<blockquote>
+<div class="arithmatex">\[V_{out} = 24.81V\]</div>
+</blockquote>
+</div>
 <h2 id="ejercicios">Ejercicios</h2>
+<div class="admonition example ejercicio">
+<p class="admonition-title">Example</p>
+<p><strong>1. Si tenemos un <span class="arithmatex">\(V_{in} = 12V\)</span> y una <span class="arithmatex">\(R_1 = 5.6k\Omega\)</span> y una <span class="arithmatex">\(R_2 = 10k\Omega\)</span>. ¿Cuál es el voltaje de salida?</strong><br/>
+<strong>Diagrama:</strong> <br/>
+<img alt="diagrama" src="../../img/png/Antologia.pdf-353.opt.png"/> <br/>
+<strong>Solución:</strong> <br/><br/><br/><br/></p>
+</div>
+<div class="admonition example ejercicio">
+<p class="admonition-title">Example</p>
+<p><strong>1. Si tenemos un <span class="arithmatex">\(V_{in} = 5V\)</span> y una <span class="arithmatex">\(R_1 = 10k\Omega\)</span> y una <span class="arithmatex">\(R_2 = 10k\Omega\)</span>. ¿Cuál es el voltaje de salida?</strong><br/>
+<strong>Diagrama:</strong> <br/>
+<img alt="diagrama" src="../../img/png/Antologia.pdf-353.opt.png"/> <br/>
+<strong>Solución:</strong> <br/><br/><br/><br/></p>
+</div>
+<div class="admonition example ejercicio">
+<p class="admonition-title">Example</p>
+<p><strong>1. Si tenemos un <span class="arithmatex">\(V_{in} = 48V\)</span> y una <span class="arithmatex">\(R_1 = 10k\Omega\)</span> y una <span class="arithmatex">\(R_2 = 1k\Omega\)</span>. ¿Cuál es el voltaje de salida?</strong><br/>
+<strong>Diagrama:</strong> <br/>
+<img alt="diagrama" src="../../img/png/Antologia.pdf-353.opt.png"/> <br/>
+<strong>Solución:</strong> <br/><br/><br/><br/></p>
+</div>
 
               
             </article>

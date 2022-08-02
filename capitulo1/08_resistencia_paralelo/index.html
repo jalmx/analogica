@@ -406,13 +406,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#ejemplos" class="md-nav__link">
-    Ejemplos
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#ejercicios" class="md-nav__link">
     Ejercicios
   </a>
@@ -463,7 +456,7 @@
   
     <li class="md-nav__item">
       <a href="../11_circuto_serie_resistivos/" class="md-nav__link">
-        Circuitos en Serie - Resistivo
+        Circuitos en Serie Resistivo
       </a>
     </li>
   
@@ -477,7 +470,7 @@
   
     <li class="md-nav__item">
       <a href="../12_circuto_paralelo_resistivo/" class="md-nav__link">
-        Circuitos en Paralelo - Resistivo
+        Circuitos en Paralelo Resistivo
       </a>
     </li>
   
@@ -830,13 +823,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#ejemplos" class="md-nav__link">
-    Ejemplos
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#ejercicios" class="md-nav__link">
     Ejercicios
   </a>
@@ -858,67 +844,65 @@
 
 <h1 id="resistencias-en-conexion-paralelo">Resistencias en conexión Paralelo</h1>
 <p>Cuando dos o más resistencias se conectan individualmente entre dos puntos distintos, están en paralelo entre sí.</p>
+<p><img alt="conexion paralelo" src="../../img/png/Antologia.pdf-178.opt.png"/></p>
 <blockquote>
 <p>Si existe más de una trayectoria (rama) para la corriente entre dos puntos distintos, y si el voltaje entre dichos puntos también aparece a través de cada una de las ramas, entonces existe un circuito en paralelo entre esos dos puntos.</p>
 </blockquote>
 <p><strong><mark>Las resistencias en paralelo es la suma de sus inversos en un inverso</mark></strong>, es decir; se realiza la suma del inverso de todas las resistencias y una vez se tenga, a esa suma total se aplica un inverso.</p>
+<p><img alt="paralelo" src="../../img/png/Antologia.pdf-184.opt.png"/></p>
+<p>Como se muestra en la imagen, tenemos 3 resistencias, en los extremos tenemos conectado un lado de R1, R2 y R3, y por el otro lado igual, en estos extremos se lee su valor total; es decir:</p>
+<div class="arithmatex">\[R_T= \frac{1}{\frac{1}{R_1}+ \frac{1}{R_2} + \frac{1}{R_3}} = \frac{1}{\frac{1}{100 \Omega}+ \frac{1}{47 \Omega} + \frac{1}{22\Omega}}\]</div>
+<div class="arithmatex">\[R_T=13.03 \Omega\]</div>
+<p>Este valor de resistencia también se conoce como <strong>resistencia equivalente o total.</strong></p>
+<p><strong>La fórmula para la resistencia equivalente en paralelo es:</strong></p>
 <blockquote>
-<p>faltan las imágenes </p>
+<div class="arithmatex">\[R_T= \frac{1}{\frac{1}{R_1}+\frac{1}{R_2}+\frac{1}{R_3}+\frac{1}{R_4}+ ... + \frac{1}{R_n}}\]</div>
 </blockquote>
+<p>Aplicaremos esta fórmula en los circuitos que se muestran:</p>
+<p><img alt="paralelo" src="../../img/png/Antologia.pdf-194.opt.png"/></p>
+<div class="arithmatex">\[R_T= \frac{1}{\frac{1}{R_1}+\frac{1}{R_2}+\frac{1}{R_3}+\frac{1}{R_4}} = \frac{1}{\frac{1}{1k\Omega}+\frac{1}{1k\Omega}+\frac{1}{1k\Omega}+\frac{1}{1k\Omega}}\]</div>
+<div class="arithmatex">\[R_T = 250 \Omega\]</div>
+<p>El circuito equivalente seria:</p>
+<p><img alt="equivalente" src="../../img/png/Antologia.pdf-202.opt.png"/></p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>Siempre el valor de la resistencia total en paralelo debe ser mucho menor que la resistencia más pequeña en el circuito.</p>
 </div>
-<h2 id="ejemplos">Ejemplos</h2>
-<div class="admonition example ejemplo">
-<p class="admonition-title">Example</p>
-<p><strong>1. Obtener la resistencia total del siguiente circuito</strong> <br/>
-<strong>Diagrama</strong> <br/>
-<strong>Calculo:</strong> <br/></p>
-</div>
-<div class="admonition example ejemplo">
-<p class="admonition-title">Example</p>
-<p><strong>2. Obtener la resistencia total del siguiente circuito</strong> <br/>
-<strong>Diagrama</strong> <br/>
-<strong>Calculo:</strong> <br/></p>
-</div>
-<div class="admonition example ejemplo">
-<p class="admonition-title">Example</p>
-<p><strong>3. Obtener la resistencia total del siguiente circuito</strong> <br/>
-<strong>Diagrama</strong> <br/>
-<strong>Calculo:</strong> <br/></p>
-</div>
-<div class="admonition example ejemplo">
-<p class="admonition-title">Example</p>
-<p><strong>4. Obtener la resistencia total del siguiente circuito</strong> <br/>
-<strong>Diagrama</strong> <br/>
-<strong>Calculo:</strong> <br/></p>
-</div>
 <h2 id="ejercicios">Ejercicios</h2>
-<p>Resolver los siguientes ejercicios aplicando las reglas de las resistencias en serie.</p>
-<div class="admonition note">
-<p class="admonition-title">Ejercicio</p>
+<div class="admonition example ejercicio">
+<p class="admonition-title">Example</p>
 <p><strong>1. Obtener la resistencia total del siguiente circuito</strong> <br/>
-<strong>Diagrama:</strong> <br/>
-<strong>Cálculos:</strong> <br/><br/><br/><br/><br/></p>
+<strong>Diagrama</strong> <br/>
+<img alt="diagrama" src="../../img/png/Antologia.pdf-207.opt.png"/> <br/>
+<strong>Calculo:</strong> <br/></p>
 </div>
-<div class="admonition note">
-<p class="admonition-title">Ejercicio</p>
+<div class="admonition example ejercicio">
+<p class="admonition-title">Example</p>
 <p><strong>2. Obtener la resistencia total del siguiente circuito</strong> <br/>
-<strong>Diagrama:</strong> <br/>
-<strong>Cálculos:</strong> <br/><br/><br/><br/><br/></p>
+<strong>Diagrama</strong> <br/>
+<img alt="diagrama" src="../../img/png/Antologia.pdf-211.opt.png"/> <br/>
+<strong>Calculo:</strong> <br/></p>
 </div>
-<div class="admonition note">
-<p class="admonition-title">Ejercicio</p>
+<div class="admonition example ejercicio">
+<p class="admonition-title">Example</p>
 <p><strong>3. Obtener la resistencia total del siguiente circuito</strong> <br/>
-<strong>Diagrama:</strong> <br/>
-<strong>Cálculos:</strong> <br/><br/><br/><br/><br/></p>
+<strong>Diagrama</strong> <br/>
+<img alt="diagrama" src="../../img/png/Antologia.pdf-212.opt.png"/> <br/>
+<strong>Calculo:</strong> <br/></p>
 </div>
-<div class="admonition note">
-<p class="admonition-title">Ejercicio</p>
+<div class="admonition example ejercicio">
+<p class="admonition-title">Example</p>
 <p><strong>4. Obtener la resistencia total del siguiente circuito</strong> <br/>
-<strong>Diagrama:</strong> <br/>
-<strong>Cálculos:</strong> <br/><br/><br/><br/><br/></p>
+<strong>Diagrama</strong> <br/>
+<img alt="diagrama" src="../../img/png/Antologia.pdf-213.opt.png"/> <br/>
+<strong>Calculo:</strong> <br/></p>
+</div>
+<div class="admonition example ejercicio">
+<p class="admonition-title">Example</p>
+<p><strong>5. Obtener la resistencia total del siguiente circuito</strong> <br/>
+<strong>Diagrama</strong> <br/>
+<img alt="diagrama" src="../../img/png/Antologia.pdf-214.opt.png"/> <br/>
+<strong>Calculo:</strong> <br/></p>
 </div>
 
               
