@@ -2,11 +2,11 @@
 
 La conexión de resistencia en la forma mixta, es la combinación de las dos anteriormente vistas. Es decir, tenemos que observar cuáles se encuentran en paralelo y cuáles en serie e ir haciendo la reducción hasta obtener la resistencia equivalente.
 
-![imagen](../img/png/Antologia.pdf-215.opt.png)
+![imagen](../assets/Antologia.pdf-215.opt.png)
 
 En la figura podemos observar que R2 y R3 están en paralelo, por lo tanto, se resuelve por paralelo y a esa resistencia total queda en serie con R1, nos quedaría realizar la suma y obtener la resistencia total.
 
-![imagen](../img/png/Antologia.pdf-219.opt.png)
+![imagen](../assets/Antologia.pdf-219.opt.png)
 
 En ese siguiente ejemplo, tenemos en paralelo a $R2$ y $R3$, resolvemos ese paralelo. Ahora $R1$ y $R4$ están en serie, por lo tanto aplicamos la fórmula, una vez tenemos el resultado del paralelo $R2R3$ y el resultado de la serie $R1R4$, nos quedan en serie, solo nos queda hacer esa suma y obtener la resistencia total.
 
@@ -15,7 +15,7 @@ En ese siguiente ejemplo, tenemos en paralelo a $R2$ y $R3$, resolvemos ese para
 !!! example Ejemplo
     **1. Obtener la resistencia equivalente del circuito** <br>
     **Diagrama:** <br>
-    ![diagrama](../img/png/Antologia.pdf-223.opt.png) <br>
+    ![diagrama](../assets/Antologia.pdf-223.opt.png) <br>
     **Solución:**   <br>
     Observamos el paralelo de $R2$ con $R3$ ($R2||R3$)
 
@@ -27,11 +27,10 @@ En ese siguiente ejemplo, tenemos en paralelo a $R2$ y $R3$, resolvemos ese para
 
     > $$R_T=60\Omega$$
 
-
 ## Ejercicios
 
 !!! example Ejercicio
     **1. Obtener la resistencia equivalente del circuito** <br>
     **Diagrama:** <br>
-    ![diagrama](../img/png/Antologia.pdf-223.opt.png) <br>
+    ![diagrama](../assets/Antologia.pdf-223.opt.png) <br>
     **Solución:** <br><br><br><br>

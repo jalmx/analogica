@@ -1,6 +1,6 @@
 # Diodo
 
-> El diodo es el elemento más básico de los semiconductores, a partir de él se crearon los demás. 
+> El diodo es el elemento más básico de los semiconductores, a partir de él se crearon los demás.
 
 ## Diodo ideal
 
@@ -8,11 +8,11 @@ Es un dispositivo de dos terminales, un lado llamado Ánodo, que será el lado p
 
 *Las características de un diodo ideal son las mismas que un interruptor que solo permite la conducción de la corriente es una sola dirección.*
 
-![simbolo diodo general](../img/png/Antologia.pdf-369.opt.png)
+![simbolo diodo general](../assets/Antologia.pdf-369.opt.png)
 
 Vemos en la imagen siguiente su comportamiento ideal, en sus diversos estados:
 
-![fases del diodo](../img/png/diodo_2116.png)
+![fases del diodo](../assets/diodo_2116.png)
 
 ## Diodo Real
 
@@ -26,7 +26,7 @@ Sin embargo, lo ideal solo existe en concepto, porque en realidad tiene un compo
 Por lo tanto, aquí ya no es ideal, como vemos depende de que diodo estemos hablando debemos tener ciertos criterios al momento del cálculo.
 El comportamiento real se muestra en el siguiente gráfico:
 
-![comportamiento del diodo](../img/png/Antologia.pdf-377.opt.png)
+![comportamiento del diodo](../assets/Antologia.pdf-377.opt.png)
 
 Su configuración más acercada la realidad es que es un interruptor con una pila, (*existe otra a más detalle que no se tratara aquí*).
 Ahora necesitamos comprender dos conceptos importantes para el diodo, que es sus tipos de polarización y que sucede en cada caso.
@@ -37,7 +37,7 @@ Esto significa que cuando es conectado a una fuente de voltaje el lado positivo 
 
 Como se muestra en la imagen:
 
-![polarizacion directa](../img/png/Antologia.pdf-378.opt.png)
+![polarizacion directa](../assets/Antologia.pdf-378.opt.png)
 
 ### Polarización inversa
 
@@ -45,7 +45,7 @@ Esto significa que cuando es conectado a una fuente de voltaje el lado positivo 
 
 Como se muestra en la imagen:
 
-![polarizacion inversa](../img/png/Antologia.pdf-379.opt.png)
+![polarizacion inversa](../assets/Antologia.pdf-379.opt.png)
 
 ## Circuitos con diodos
 

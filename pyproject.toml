@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "analogica"
+version = "0.1.0"
+description = "Book electronic analogic"
+authors = ["jalmx <jalm_x@hotmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mkdocs-material = "^9.5.37"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
