@@ -4,14 +4,14 @@ Un circuito en paralelo se base en lo previamente visto con relación a la conex
 
 **Reglas que debemos grabarnos son el comportamiento del voltaje y la corriente en circuitos serie:**
 
-> Voltaje: Es el mismo en todos los elementos.
-
-> Corriente: La corriente se distribuye entre todos los elementos.
+> - **Voltaje**: Es el mismo en todos los elementos.
+> - **Corriente**: La corriente se distribuye entre todos los elementos.
 
 ![paralelo](../assets/Antologia.pdf-315.opt.png)
 <figcaption>La suma de n bifurcaciones de corriente es igual al total de la corriente del circuito. El voltaje en cada resistencia es igual al voltaje de la fuente.</figcaption>
 
 ## Comportamiento de voltaje y corriente en Serie
+
 ### Ecuación de Voltaje
 
 El voltaje total es igual es todos los elementos del circuito:
@@ -33,4 +33,3 @@ La corriente se distribuye en todos los elementos
     **Solución:**   <br>
 
 ## Ejercicios
-

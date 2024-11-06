@@ -18,4 +18,3 @@ En concreto, la corriente directa se llama así porque la corriente es constante
 Es llamada así porque varía en el tiempo, no se mantiene constante, todo el tiempo está teniendo una variación, pero esta variación u oscilación es constante de cierta manera.
 
 <!-- agregar una imagen representativa -->
-

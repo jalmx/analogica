@@ -4,14 +4,14 @@ Un circuito serie se base en lo previamente visto con relación a la *conexión 
 
 **Reglas que debemos grabarnos son el comportamiento del voltaje y la corriente en circuitos serie:**
 
-> Voltaje: En un circuito serié se distribuye el voltaje entre todas las cargas (resistencias)
-
-> Corriente: La corriente es la misma en todas las cargas (resistencias).
+> - **Voltaje**: En un circuito serié se distribuye el voltaje entre todas las cargas (resistencias)
+> - **Corriente**: La corriente es la misma en todas las cargas (resistencias).
 
 ![circuito serie](../assets/Antologia.pdf-249.opt.png)
 <figcaption>La suma de n caídas de voltaje es igual al voltaje de la fuente. La corriente es la misma en todas las secciones del circuito.</figcaption>
 
 ## Comportamiento de voltaje y corriente en Serie
+
 ### Ecuación de Voltaje
 
 El voltaje total es igual a la suma de las caídas de tension:
