@@ -1,6 +1,6 @@
 
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="es" class="no-js">
   <head>
     
       <meta charset="utf-8">
@@ -8,8 +8,15 @@
       
       
       
+      
+        <link rel="prev" href="../03_baterias/">
+      
+      
+        <link rel="next" href="../05_potenciometro/">
+      
+      
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.44">
     
     
       
@@ -17,27 +24,33 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.cd566b2a.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.e6a45f82.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
         
-      
-    
-    
-    
-      
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
     
-    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
+    
     
     
   </head>
@@ -45,12 +58,13 @@
   
     
     
+      
     
     
     
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="indigo">
   
-    
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -59,7 +73,7 @@
       
         
         <a href="#resistencias" class="md-skip">
-          Skip to content
+          Saltar a contenido
         </a>
       
     </div>
@@ -67,19 +81,26 @@
       
     </div>
     
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
     
       
 
-<header class="md-header" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="Electrónica Analógica" class="md-header__button md-logo" aria-label="Electrónica Analógica" data-md-component="logo">
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="https://www.alejandro-leyva.com/analogica/" title="Electrónica Analógica" class="md-header__button md-logo" aria-label="Electrónica Analógica" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
     </label>
     <div class="md-header__title" data-md-component="header-title">
       <div class="md-header__ellipsis">
@@ -98,8 +119,49 @@
       </div>
     </div>
     
+      
+        <form class="md-header__option" data-md-component="palette">
+  
     
     
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/jalmx/analogica" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
     
   </nav>
   
@@ -123,29 +185,47 @@
                     
 
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Electrónica Analógica" class="md-nav__button md-logo" aria-label="Electrónica Analógica" data-md-component="logo">
+    <a href="https://www.alejandro-leyva.com/analogica/" title="Electrónica Analógica" class="md-nav__button md-logo" aria-label="Electrónica Analógica" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
     Electrónica Analógica
   </label>
   
+    <div class="md-nav__source">
+      <a href="https://github.com/jalmx/analogica" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
   <ul class="md-nav__list" data-md-scrollfix>
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../.." class="md-nav__link">
-        Presentación
+        
+  
+  <span class="md-ellipsis">
+    Presentación
+  </span>
+  
+
       </a>
     </li>
   
@@ -153,14 +233,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../Tools/" class="md-nav__link">
-        Herramientas
+        
+  
+  <span class="md-ellipsis">
+    Herramientas
+  </span>
+  
+
       </a>
     </li>
   
@@ -168,14 +253,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../bibliografia/" class="md-nav__link">
-        Bibliografía
+        
+  
+  <span class="md-ellipsis">
+    Bibliografía
+  </span>
+  
+
       </a>
     </li>
   
@@ -183,14 +273,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../simbologia/" class="md-nav__link">
-        Simbología eléctrica y electronica
+        
+  
+  <span class="md-ellipsis">
+    Simbología eléctrica y electronica
+  </span>
+  
+
       </a>
     </li>
   
@@ -198,131 +293,186 @@
     
       
       
-      
-
   
   
     
   
   
+  
+    
+    
+    
     
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_5">
-          Capitulo1
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Capitulo1" data-md-level="1">
-        <label class="md-nav__title" for="__nav_5">
-          <span class="md-nav__icon md-icon"></span>
-          Capitulo1
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
           
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Capitulo1
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Capitulo1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../" class="md-nav__link">
-        Capítulo 1
+        
+  
+  <span class="md-ellipsis">
+    Capítulo 1
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../00_introduccion/" class="md-nav__link">
-        Introducción a Electrónica básica
+        
+  
+  <span class="md-ellipsis">
+    Introducción a Electrónica básica
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../01_notacio_cientifica/" class="md-nav__link">
-        Notación cientifica
+        
+  
+  <span class="md-ellipsis">
+    Notación científica
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../02_notacion_ingenieria/" class="md-nav__link">
-        Notación de ingeniería (múltiplos y submúltiplos)
+        
+  
+  <span class="md-ellipsis">
+    Notación de ingeniería (múltiplos y submúltiplos)
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../03_baterias/" class="md-nav__link">
-        Baterías
+        
+  
+  <span class="md-ellipsis">
+    Baterías
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
   
   
     
   
   
+  
     <li class="md-nav__item md-nav__item--active">
       
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
         
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Resistencias
+          
+  
+  <span class="md-ellipsis">
+    Resistencias
+  </span>
+  
+
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Resistencias
+        
+  
+  <span class="md-ellipsis">
+    Resistencias
+  </span>
+  
+
       </a>
       
         
 
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
   
   
   
@@ -331,34 +481,42 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      Table of contents
+      Tabla de contenidos
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
   <a href="#codigo-de-colores-de-resistencias-de-carbon" class="md-nav__link">
-    Código de colores de Resistencias de carbon
+    <span class="md-ellipsis">
+      Código de colores de Resistencias de carbon
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#tabla-de-valores-de-resistencias-comerciales" class="md-nav__link">
-    Tabla de valores de resistencias comerciales
+    <span class="md-ellipsis">
+      Tabla de valores de resistencias comerciales
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#ejemplos" class="md-nav__link">
-    Ejemplos
+    <span class="md-ellipsis">
+      Ejemplos
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#ejercicios" class="md-nav__link">
-    Ejercicios
+    <span class="md-ellipsis">
+      Ejercicios
+    </span>
   </a>
   
 </li>
@@ -370,449 +528,620 @@
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../05_potenciometro/" class="md-nav__link">
-        Potenciómetro
+        
+  
+  <span class="md-ellipsis">
+    Potenciómetro
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../06_ley_de_ohm/" class="md-nav__link">
-        Ley de Ohm
+        
+  
+  <span class="md-ellipsis">
+    Ley de Ohm
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../07_potencia/" class="md-nav__link">
-        Potencia (Eléctrica)
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
   
   
   
     <li class="md-nav__item">
       <a href="../07_resistencia_serie/" class="md-nav__link">
-        Resistencias en conexión Serie
+        
+  
+  <span class="md-ellipsis">
+    Resistencias en conexión Serie
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../08_resistencia_paralelo/" class="md-nav__link">
-        Resistencias en conexión Paralelo
+        
+  
+  <span class="md-ellipsis">
+    Resistencias en conexión Paralelo
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../09_resistencia_mixto/" class="md-nav__link">
-        Resistencias en conexión Serie-Paralelo (Mixto)
+        
+  
+  <span class="md-ellipsis">
+    Resistencias en conexión Serie-Paralelo (Mixto)
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../10_circuitos_electricos/" class="md-nav__link">
-        Circuitos eléctricos
+        
+  
+  <span class="md-ellipsis">
+    Circuitos eléctricos
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
-      <a href="../11_circuto_serie_resistivos/" class="md-nav__link">
-        Circuitos en Serie Resistivo
+      <a href="../11_potencia/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Potencia (Eléctrica)
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
-      <a href="../12_circuto_paralelo_resistivo/" class="md-nav__link">
-        Circuitos en Paralelo Resistivo
+      <a href="../12_circuto_serie_resistivos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Circuitos en Serie Resistivo
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
-      <a href="../13_circuito_resistivo_mixto/" class="md-nav__link">
-        Circuito mixtos Resistivo (Serie-Paralelo)
+      <a href="../13_circuto_paralelo_resistivo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Circuitos en Paralelo Resistivo
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
-      <a href="../14_divisor_de_tension/" class="md-nav__link">
-        Divisor de tension
+      <a href="../14_circuito_resistivo_mixto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Circuito mixtos Resistivo (Serie-Paralelo)
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
-      <a href="../15_corriente_dc_ac/" class="md-nav__link">
-        Corriente directa o continua y Corriente alterna
+      <a href="../15_divisor_de_tension/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Divisor de tension
+  </span>
+  
+
       </a>
     </li>
   
 
+              
             
-          
-        </ul>
-      </nav>
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../16_corriente_dc_ac/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Corriente directa o continua y Corriente alterna
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
     
       
       
-      
-
   
   
   
+  
+    
+    
+    
     
     <li class="md-nav__item md-nav__item--nested">
       
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_6">
-          Capitulo2
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Capitulo2" data-md-level="1">
-        <label class="md-nav__title" for="__nav_6">
-          <span class="md-nav__icon md-icon"></span>
-          Capitulo2
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
           
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Capitulo2
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Capitulo2
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../capitulo2/" class="md-nav__link">
-        Capítulo 2
+        
+  
+  <span class="md-ellipsis">
+    Capítulo 2
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../capitulo2/01_semiconductores/" class="md-nav__link">
-        Semiconductores
+        
+  
+  <span class="md-ellipsis">
+    Semiconductores
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../capitulo2/02_diodo/" class="md-nav__link">
-        Diodo
+        
+  
+  <span class="md-ellipsis">
+    Diodo
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../capitulo2/03_diodo_rectificador/" class="md-nav__link">
-        Diodo rectificador
+        
+  
+  <span class="md-ellipsis">
+    Diodo rectificador
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../capitulo2/04_diodo_zener/" class="md-nav__link">
-        Diodo Zener
+        
+  
+  <span class="md-ellipsis">
+    Diodo Zener
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../capitulo2/05_leds/" class="md-nav__link">
-        LEDs
+        
+  
+  <span class="md-ellipsis">
+    LEDs
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../capitulo2/06_leds_propocito_especial/" class="md-nav__link">
-        LEDs de propósito especial
+        
+  
+  <span class="md-ellipsis">
+    LEDs de propósito especial
+  </span>
+  
+
       </a>
     </li>
   
 
+              
             
-          
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      
     </li>
   
 
     
       
       
-      
-
+  
   
   
   
     
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
       
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_7">
-          Capitulo3
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Capitulo3" data-md-level="1">
-        <label class="md-nav__title" for="__nav_7">
-          <span class="md-nav__icon md-icon"></span>
-          Capitulo3
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
           
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Capitulo3
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Capitulo3
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../capitulo3/" class="md-nav__link">
-        Capítulo 3
+        
+  
+  <span class="md-ellipsis">
+    Capítulo 3
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../capitulo3/01_Transistor/" class="md-nav__link">
-        Semiconductor - Transistores (BJT)
+        
+  
+  <span class="md-ellipsis">
+    Semiconductor - Transistores (BJT)
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../capitulo3/02_transistor_conmutador/" class="md-nav__link">
-        Transistor como Switch (Corto-Saturación)
+        
+  
+  <span class="md-ellipsis">
+    Transistor como Switch (Corto-Saturación)
+  </span>
+  
+
       </a>
     </li>
   
 
+              
             
-          
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      
     </li>
   
 
     
       
       
-      
-
+  
   
   
   
     
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
       
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_8">
-          Capitulo4
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Capitulo4" data-md-level="1">
-        <label class="md-nav__title" for="__nav_8">
-          <span class="md-nav__icon md-icon"></span>
-          Capitulo4
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
           
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Capitulo4
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Capitulo4
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../capitulo4/" class="md-nav__link">
-        PCB
+        
+  
+  <span class="md-ellipsis">
+    PCB
+  </span>
+  
+
       </a>
     </li>
   
 
+              
             
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
+          </ul>
+        </nav>
       
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../tags.html" class="md-nav__link">
-        Tags
-      </a>
     </li>
   
 
@@ -830,7 +1159,7 @@
                   <div class="md-sidebar__inner">
                     
 
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
   
   
   
@@ -839,34 +1168,42 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      Table of contents
+      Tabla de contenidos
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
   <a href="#codigo-de-colores-de-resistencias-de-carbon" class="md-nav__link">
-    Código de colores de Resistencias de carbon
+    <span class="md-ellipsis">
+      Código de colores de Resistencias de carbon
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#tabla-de-valores-de-resistencias-comerciales" class="md-nav__link">
-    Tabla de valores de resistencias comerciales
+    <span class="md-ellipsis">
+      Tabla de valores de resistencias comerciales
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#ejemplos" class="md-nav__link">
-    Ejemplos
+    <span class="md-ellipsis">
+      Ejemplos
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#ejercicios" class="md-nav__link">
-    Ejercicios
+    <span class="md-ellipsis">
+      Ejercicios
+    </span>
   </a>
   
 </li>
@@ -879,10 +1216,15 @@
               </div>
             
           
-          <div class="md-content" data-md-component="content">
-            <article class="md-content__inner md-typeset">
-              
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
                 
+                  
+
+  
+  
+
 
 <h1 id="resistencias">Resistencias</h1>
 <p>Dentro de los circuitos eléctricos elementales tenemos varias configuraciones que podemos realizar, cada una con una función especifica y una aplicación.</p>
@@ -890,25 +1232,25 @@
 <table>
 <thead>
 <tr>
-<th align="center">Sistema NEMA</th>
-<th align="center">Sistema IEC</th>
+<th style="text-align: center;">Sistema NEMA</th>
+<th style="text-align: center;">Sistema IEC</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="center"><img alt="nema res" src="../../img/resistor-nema.svg"/></td>
-<td align="center"><img alt="" src="../../img/resistor-iec.svg"/></td>
+<td style="text-align: center;"><img alt="nema res" src="../../assets/resistor-nema.png"/></td>
+<td style="text-align: center;"><img alt="" src="../../assets/resistor-iec.png"/></td>
 </tr>
 </tbody>
 </table>
 <h2 id="codigo-de-colores-de-resistencias-de-carbon">Código de colores de Resistencias de carbon</h2>
-<p>Para la identificación del valor resistivo de una resistencia, se creó un código de colores para conocer e identificar su valor óhmico. 
+<p>Para la identificación del valor resistivo de una resistencia, se creó un código de colores para conocer e identificar su valor óhmico.
 Solo se verá la identificación de resistencias de 4 y 5 bandas, dado que son las más comunes que nos taparemos día a día.</p>
-<p><img alt="Tabla de codigo de colores 4 bandas" src="https://www.espaciohonduras.net/images/electronica/articulos/codigo_colores_resistencias_electricas/tabla_codigo_colores_resistencias_electricas_4_bandas.png"/></p>
-<figcaption>Tabla de codigo de colores resistencias de 4 bandas</figcaption>
+<p><img alt="Tabla de codigo de colores 4 bandas" src="../../assets/4bandas.png"/></p>
+<figcaption>Tabla de código de colores resistencias de 4 bandas</figcaption>
 <!-- TODO: Crear mi propia imagen de 4 bandas -->
-<p><img alt="Tabla de codigo de colores 5 bandas" src="https://www.espaciohonduras.net/images/electronica/articulos/codigo_colores_resistencias_electricas/codigo_colores_resistencias_5_bandas.png"/></p>
-<figcaption>Tabla de codigo de colores resistencias de 5 bandas</figcaption>
+<p><img alt="Tabla de código de colores 5 bandas" src="../../assets/5bandas.png"/></p>
+<figcaption>Tabla de código de colores resistencias de 5 bandas</figcaption>
 <!-- TODO: Crear mi propia imagen de 5 bandas -->
 <h2 id="tabla-de-valores-de-resistencias-comerciales">Tabla de valores de resistencias comerciales</h2>
 <p>Es imposible que existan todos los valores posibles de resistencias, por ello, existe un listado de valores que se pueden conseguir en el mercado, en casos muy especiales se puede mandar a fabricar, pero para ello tenemos al potenciómetro que se puede ajustar al valor que necesitemos.</p>
@@ -918,183 +1260,202 @@ Solo se verá la identificación de resistencias de 4 y 5 bandas, dado que son l
 <h2 id="ejemplos">Ejemplos</h2>
 <p><img alt="resistencia" src="https://www.kindpng.com/picc/m/62-626699_codigo-de-colores-para-resistencias-de-4-bandas.png"/></p>
 <!-- TODO: Crear mi propia imagen la tabla de colores, o crearla conn JS  -->
-<p>Utilizando el codigo de colores de resistencias, obtener el valor resistivo con base a cada banda.</p>
+<p>Utilizando el código de colores de resistencias, obtener el valor resistivo con base a cada banda.</p>
 <table>
 <thead>
 <tr>
 <th>Código</th>
-<th align="center">Valor</th>
+<th style="text-align: center;">Valor</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><strong>Naranja/Naranja/Cafe</strong></td>
-<td align="center"><span class="arithmatex">\(330 \Omega\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(330 \Omega\)</span></td>
 </tr>
 <tr>
 <td><strong>Rojo/Rojo/Cafe</strong></td>
-<td align="center"><span class="arithmatex">\(220 \Omega\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(220 \Omega\)</span></td>
 </tr>
 <tr>
 <td><strong>Amarillo/Morado/Cafe</strong></td>
-<td align="center"><span class="arithmatex">\(470 \Omega\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(470 \Omega\)</span></td>
 </tr>
 <tr>
 <td><strong>Negro/Cafe/Rojo</strong></td>
-<td align="center"><span class="arithmatex">\(1000 \Omega = 1k \Omega\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(1000 \Omega = 1k \Omega\)</span></td>
 </tr>
 </tbody>
 </table>
-<p>Con base al valor resitivo, colocar el valor de las bandas a las que corresponden.</p>
+<p>Con base al valor resistivo, colocar el valor de las bandas a las que corresponden.</p>
 <table>
 <thead>
 <tr>
-<th align="center">Valor</th>
+<th style="text-align: center;">Valor</th>
 <th>Código</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="center"><span class="arithmatex">\(220 \Omega\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(220 \Omega\)</span></td>
 <td>Rojo/Rojo/Cafe</td>
 </tr>
 <tr>
-<td align="center"><span class="arithmatex">\(4.7 K \Omega\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(4.7 K \Omega\)</span></td>
 <td>Amarillo/Morado/Rojo</td>
 </tr>
 <tr>
-<td align="center"><span class="arithmatex">\(1.2 Mk \Omega\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(1.2 Mk \Omega\)</span></td>
 <td>Cafe/Rojo/Verde/</td>
 </tr>
 <tr>
-<td align="center"><span class="arithmatex">\(10 \Omega\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(10 \Omega\)</span></td>
 <td>Negro/Cafe/Cafe</td>
 </tr>
 </tbody>
 </table>
 <h2 id="ejercicios">Ejercicios</h2>
 <ol>
-<li>Utilizando el codigo de colores de resistencias, obtener el valor resistivo con base a cada banda, en notacion de ingenieria.</li>
+<li>Utilizando el código de colores de resistencias, obtener el valor resistivo con base a cada banda, en notación de ingeniería.</li>
 </ol>
 <table>
 <thead>
 <tr>
-<th align="center">No</th>
+<th style="text-align: center;">No</th>
 <th>Código</th>
 <th>Valor</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="center">1</td>
+<td style="text-align: center;">1</td>
 <td><strong>Cafe/Negro/Negro</strong></td>
 <td></td>
 </tr>
 <tr>
-<td align="center">2</td>
+<td style="text-align: center;">2</td>
 <td><strong>Verde/Azul/Naranja</strong></td>
 <td></td>
 </tr>
 <tr>
-<td align="center">3</td>
+<td style="text-align: center;">3</td>
 <td><strong>Amarillo/Morado/Rojo</strong></td>
 <td></td>
 </tr>
 <tr>
-<td align="center">4</td>
+<td style="text-align: center;">4</td>
 <td><strong>Azul/Gris/Amarillo</strong></td>
 <td></td>
 </tr>
 <tr>
-<td align="center">5</td>
+<td style="text-align: center;">5</td>
 <td><strong>Rojo/Rojo/Rojo</strong></td>
 <td></td>
 </tr>
 </tbody>
 </table>
 <ol>
-<li>Con base al valor resitivo, colocar el valor de las bandas a las que corresponden</li>
+<li>Con base al valor resistivo, colocar el valor de las bandas a las que corresponden</li>
 </ol>
 <table>
 <thead>
 <tr>
-<th align="center">No</th>
-<th align="center">Valor</th>
+<th style="text-align: center;">No</th>
+<th style="text-align: center;">Valor</th>
 <th>Código</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="center">1</td>
-<td align="center"><span class="arithmatex">\(120 \Omega\)</span></td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;"><span class="arithmatex">\(120 \Omega\)</span></td>
 <td></td>
 </tr>
 <tr>
-<td align="center">2</td>
-<td align="center"><span class="arithmatex">\(3.3k \Omega\)</span></td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><span class="arithmatex">\(3.3k \Omega\)</span></td>
 <td></td>
 </tr>
 <tr>
-<td align="center">3</td>
-<td align="center"><span class="arithmatex">\(68k \Omega\)</span></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><span class="arithmatex">\(68k \Omega\)</span></td>
 <td></td>
 </tr>
 <tr>
-<td align="center">4</td>
-<td align="center"><span class="arithmatex">\(1M \Omega\)</span></td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;"><span class="arithmatex">\(1M \Omega\)</span></td>
 <td></td>
 </tr>
 <tr>
-<td align="center">5</td>
-<td align="center"><span class="arithmatex">\(560 k \Omega\)</span></td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><span class="arithmatex">\(560 k \Omega\)</span></td>
 <td></td>
 </tr>
 </tbody>
 </table>
 
-              
-            </article>
-          </div>
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
       </main>
       
         <footer class="md-footer">
   
-    <nav class="md-footer__inner md-grid" aria-label="Footer">
+    
       
+      <nav class="md-footer__inner md-grid" aria-label="Pie" >
         
-        <a href="../03_baterias/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Baterías" rel="prev">
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              Baterías
+          
+          <a href="../03_baterias/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Baterías">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
             </div>
-          </div>
-        </a>
-      
-      
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                Baterías
+              </div>
+            </div>
+          </a>
         
-        <a href="../05_potenciometro/" class="md-footer__link md-footer__link--next" aria-label="Next: Potenciómetro" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
+        
+          
+          <a href="../05_potenciometro/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: Potenciómetro">
+            <div class="md-footer__title">
               <span class="md-footer__direction">
-                Next
+                Siguiente
               </span>
-              Potenciómetro
+              <div class="md-ellipsis">
+                Potenciómetro
+              </div>
             </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -1116,10 +1477,12 @@ Solo se verá la identificación de resistencias de 4 y 5 bandas, dado que son l
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.22074ed6.min.js"}</script>
     
     
-      <script src="../../assets/javascripts/bundle.1514a9a0.min.js"></script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.footer", "content.code.copy"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": 1.0}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
       
         <script src="../../javascripts/mathjax.js"></script>
       
