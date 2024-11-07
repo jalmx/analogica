@@ -8,7 +8,8 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"
-mkdocs-material = "^9.5.37"
+mkdocs-material = "^9.5.44"
+mkdocs-markmap = "^2.4.3"
 
 
 [build-system]
